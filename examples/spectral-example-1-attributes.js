@@ -34,3 +34,9 @@ print('Formula of BAIS2',spectral.indices.BAIS2.formula);
 print('Required bands of BAIS2',spectral.indices.BAIS2.bands);
 print('Reference of BAIS2',spectral.indices.BAIS2.reference);
 print('Contributor of BAIS2',spectral.indices.BAIS2.contributor);
+
+// PRINT THE DESCRIPTION OF VARIABLES: BANDS AND ADDITIONAL PARAMETERS
+print('Parameters Description',spectral.describeParameters);
+
+// PRINT THE DEFAULT VALUES OF THE ADDITIONAL PARAMETERS
+print('Additional Parameters',spectral.defaultParameters);
