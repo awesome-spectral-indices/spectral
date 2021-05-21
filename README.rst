@@ -1,6 +1,27 @@
 Welcome to Spectral!
 ====================
 
+.. image:: https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg
+        :target: https://github.com/sindresorhus/awesome
+
+.. image:: https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/davemlz/5e9f08fa6a45d9d486e29d9d85ad5c84/raw/spectral.json
+        :target: https://github.com/davemlz/awesome-ee-spectral-indices/blob/main/output/spectral-indices-dict.json
+        
+.. image:: https://img.shields.io/badge/License-MIT-blue.svg
+        :target: https://opensource.org/licenses/MIT
+
+.. image:: https://readthedocs.org/projects/ee-spectral/badge/?version=latest
+        :target: https://ee-spectral.readthedocs.io/en/latest/?badge=latest
+        :alt: Documentation Status
+    
+.. image:: https://img.shields.io/badge/Donate-buy%20me%20a%20coffee-yellow.svg
+        :target: https://www.buymeacoffee.com/davemlz
+    
+.. image:: https://img.shields.io/twitter/follow/dmlmont?style=social
+        :target: https://twitter.com/dmlmont
+    
+.. image:: https://img.shields.io/github/stars/davemlz/spectral?style=social
+
 **Awesome Spectral Indices for the Google Earth Engine JavaScript API (Code Editor).**
 
 Overview
