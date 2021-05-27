@@ -26,8 +26,8 @@ Welcome to Spectral!
 
 - GitHub: `https://github.com/davemlz/spectral <https://github.com/davemlz/spectral>`_
 - Documentation: `https://ee-spectral.readthedocs.io/ <https://ee-spectral.readthedocs.io/>`_
-- Awesome Spectral Indices for GEE: https://github.com/davemlz/awesome-ee-spectral-indices <https://github.com/davemlz/awesome-ee-spectral-indices>`_
-- Examples/Tutorials: https://github.com/davemlz/spectral/tree/main/examples <https://github.com/davemlz/spectral/tree/main/examples>`_
+- Awesome Spectral Indices for GEE: `https://github.com/davemlz/awesome-ee-spectral-indices <https://github.com/davemlz/awesome-ee-spectral-indices>`_
+- Examples/Tutorials: `https://github.com/davemlz/spectral/tree/main/examples <https://github.com/davemlz/spectral/tree/main/examples>`_
 
 Overview
 -------------------
