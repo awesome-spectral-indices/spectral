@@ -19,7 +19,8 @@ spectral.computeIndex
 
    var spectral = require("users/dmlmont/spectral:spectral");
    
-   var L8 = ee.ImageCollection("LANDSAT/LC08/C01/T1_SR").first();   
+   var L8 = ee.ImageCollection("LANDSAT/LC08/C01/T1_SR").first();
+   var L8 = spectral.scale(L8,"LANDSAT/LC08/C01/T1_SR")
    
 Computing one index:
    
@@ -82,6 +83,7 @@ spectral.computeKernel
    var spectral = require("users/dmlmont/spectral:spectral");
    
    var L8 = ee.ImageCollection("LANDSAT/LC08/C01/T1_SR").first();
+   var L8 = spectral.scale(L8,"LANDSAT/LC08/C01/T1_SR")
 
 Computing the linear kernel:
 
@@ -191,3 +193,84 @@ spectral.indices
    print(spectral.indices);
    print(spectral.indices.NDVI);
    print(spectral.indices.NDVI.reference);
+
+spectral.offset
+------------------------
+
+.. js:attribute:: spectral.offset
+
+   Offsets an image using the offset parameters of the dataset. This method must be applied after image scaling.
+   
+   :param ee.Image img: Image to offset.
+   :param string dataset: Dataset to get parameters from.
+   :returns: Offset image.
+
+**Examples**
+
+.. code-block:: javascript
+
+   var spectral = require("users/dmlmont/spectral:spectral");
+   
+   var dataset = "LANDSAT/LC08/C01/T1_SR";
+   
+   var L8 = ee.ImageCollection(dataset).first();
+   var L8 = spectral.scale(L8,dataset)
+   var L8 = spectral.offset(L8,dataset)
+   
+spectral.offsetParameters
+------------------------
+
+.. js:attribute:: spectral.offsetParameters
+
+   Returns the dictionary of offset parameters.
+
+   :returns: Dictionary of offset parameters.
+
+**Examples**
+
+.. code-block:: javascript
+
+   var spectral = require("users/dmlmont/spectral:spectral");
+   
+   print(spectral.offsetParameters);
+   print(spectral.offsetParameters["COPERNICUS/S2_SR"]);
+
+spectral.scale
+------------------------
+
+.. js:attribute:: spectral.scale
+
+   Scales an image using the scale parameters of the dataset.
+   
+   :param ee.Image img: Image to scale.
+   :param string dataset: Dataset to get parameters from.
+   :returns: Scaled image.
+
+**Examples**
+
+.. code-block:: javascript
+
+   var spectral = require("users/dmlmont/spectral:spectral");
+   
+   var dataset = "LANDSAT/LC08/C01/T1_SR";
+   
+   var L8 = ee.ImageCollection(dataset).first();
+   var L8 = spectral.scale(L8,dataset)
+   
+spectral.scaleParameters
+------------------------
+
+.. js:attribute:: spectral.scaleParameters
+
+   Returns the dictionary of scale parameters.
+
+   :returns: Dictionary of scale parameters.
+
+**Examples**
+
+.. code-block:: javascript
+
+   var spectral = require("users/dmlmont/spectral:spectral");
+   
+   print(spectral.scaleParameters);
+   print(spectral.scaleParameters["COPERNICUS/S2_SR"]);

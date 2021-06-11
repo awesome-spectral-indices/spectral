@@ -13,23 +13,36 @@ Getting Started
 
 .. code-block:: javascript
 
-   var S2 = ee.ImageCollection("COPERNICUS/S2_SR").first()
+   var dataset = "COPERNICUS/S2_SR";
+   var S2 = ee.ImageCollection(dataset).first()
+   
+4. Scale the image:
 
-4. Define your index or indices to use. Let's use the NDVI.
+.. code-block:: javascript
 
-5. Check the required bands for the NDVI computation:
+   var S2 = spectral.scale(S2, dataset);
+   
+5. If required, offset the image (Note: it is not required to offset the Sentinel-2 SR Product, but here it is shown as an example):
+
+.. code-block:: javascript
+
+   var S2 = spectral.offset(S2, dataset);
+
+6. Define your index or indices to use. Let's use the NDVI.
+
+7. Check the required bands for the NDVI computation:
 
 .. code-block:: javascript
 
    print(spectral.indices.NDVI.bands); // ["N","R"]
    
-6. Now, check the description of the required bands:
+8. Now, check the description of the required bands:
 
 .. code-block:: javascript
 
    print(spectral.describeParameters); // Bands: { N: "Near Infrared band", R: "Red band" }
    
-7. Create a dictionary assigning the required bands:
+9. Create a dictionary assigning the required bands:
 
 .. code-block:: javascript
    
@@ -38,7 +51,7 @@ Getting Started
        "R": S2.select("B4"),       
    };
 
-8. Compute the index (it is added as a new band):
+10. Compute the index (it is added as a new band):
 
 .. code-block:: javascript
    

@@ -49,8 +49,11 @@ Check the simple usage of spectral here:
 .. code-block:: javascript
 
    var spectral = require("users/dmlmont/spectral:spectral");
+   
+   var dataset = "COPERNICUS/S2_SR";
 
-   var S2 = ee.ImageCollection("COPERNICUS/S2_SR").first()
+   var S2 = ee.ImageCollection(dataset).first();
+   var S2 = spectral.scale(S2,dataset);
    
    var parameters = {
        "N": S2.select("B8"),
@@ -109,7 +112,7 @@ The available attributes of an index are:
 
 - :code:`short_name`: Short name of the index (e.g. :code:`"NDWI"`).
 - :code:`long_name`: Long name of the index (e.g. :code:`"Normalized Difference Water Index"`).
-- :code:`formula`: Expression/formula of the index (e.g. :code:`"(N - G)/(N + G)"`).
+- :code:`formula`: Expression/formula of the index (e.g. :code:`"(G - N)/(G + N)"`).
 - :code:`bands`: List of required bands/parameters for the index computation (e.g. :code:`["N","G"]`).
 - :code:`reference`: Link to the index reference/paper/doi (e.g. :code:`"https://doi.org/10.1080/01431169608948714"`).
 - :code:`type`: Type/application of the index (e.g. :code:`"water"`).
@@ -120,7 +123,10 @@ Finally, an index (e.g. NDVI) can be computed using the :code:`computeIndex(img,
 
 .. code-block:: javascript
 
-   var S2 = ee.ImageCollection("COPERNICUS/S2_SR").first()
+   var dataset = "COPERNICUS/S2_SR";
+   
+   var S2 = ee.ImageCollection(dataset).first()
+   var S2 = spectral.scale(S2,dataset);
    
    var parameters = {
        "N": S2.select("B8"),
@@ -133,7 +139,10 @@ And multiple indices can be computed using an array of indices:
 
 .. code-block:: javascript
 
-   var S2 = ee.ImageCollection("COPERNICUS/S2_SR").first()
+   var dataset = "COPERNICUS/S2_SR";
+   
+   var S2 = ee.ImageCollection(dataset).first()
+   var S2 = spectral.scale(S2,dataset);
    
    var parameters = {
        "N": S2.select("B8"),
