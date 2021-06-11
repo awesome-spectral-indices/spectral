@@ -28,10 +28,16 @@ var viridis = palettes.matplotlib.viridis[7];
 var malta = ee.Geometry.Point([14.387,35.921]);
 
 // DATASET TO USE: SENTINEL-2 SR
-var S2 = ee.ImageCollection('COPERNICUS/S2_SR')
+var dataset = 'COPERNICUS/S2_SR';
+
+// FILTER THE DATASET
+var S2 = ee.ImageCollection(dataset)
   .filterBounds(malta)
   .filterDate('2020-01-01','2021-01-01')
   .first();
+  
+// SCALE THE IMAGE
+var S2 = spectral.scale(S2,dataset);
 
 // CHECK THE REQUIRED BANDS FOR NDVI and SAVI
 print('Required bands for NDVI',spectral.indices.NDVI.bands);

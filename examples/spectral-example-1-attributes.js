@@ -40,3 +40,9 @@ print('Parameters Description',spectral.describeParameters);
 
 // PRINT THE DEFAULT VALUES OF THE ADDITIONAL PARAMETERS
 print('Additional Parameters',spectral.defaultParameters);
+
+// PRINT ALL SCALE PARAMETERS
+print('All Scale Parameters',spectral.scaleParameters);
+
+// PRINT ALL OFFSET PARAMETERS
+print('All Offset Parameters',spectral.offsetParameters);

@@ -28,10 +28,16 @@ var haline = palettes.cmocean.Haline[7];
 var virginIslands = ee.Geometry.Point([-64.629,18.431]);
 
 // DATASET TO USE: SENTINEL-2 SR
-var S2 = ee.ImageCollection('COPERNICUS/S2_SR')
+var dataset = 'COPERNICUS/S2_SR';
+
+// FILTER THE DATASET
+var S2 = ee.ImageCollection(dataset)
   .filterBounds(virginIslands)
   .filterDate('2020-01-01','2021-01-01')
   .first();
+  
+// SCALE THE IMAGE
+var S2 = spectral.scale(S2,dataset);
 
 // CHECK THE REQUIRED BANDS FOR NDVI
 print('Required bands for NDVI',spectral.indices.NDVI.bands);

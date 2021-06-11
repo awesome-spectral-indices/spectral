@@ -25,7 +25,13 @@ var palettes = require('users/gena/packages:palettes');
 var speed = palettes.cmocean.Speed[7];
 
 // DATASET TO USE: SENTINEL-2 SR
-var S2 = ee.ImageCollection('COPERNICUS/S2_SR').first();
+var dataset = 'COPERNICUS/S2_SR';
+
+// FILTER THE DATASET
+var S2 = ee.ImageCollection(dataset).first();
+
+// SCALE THE IMAGE
+var S2 = spectral.scale(S2,dataset);
 
 // CHECK THE REQUIRED BANDS FOR NDVI and EVI
 print('Required bands for NDVI',spectral.indices.NDVI.bands);

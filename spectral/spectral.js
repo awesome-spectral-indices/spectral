@@ -47,6 +47,8 @@ Imports
 */
 
 var spectralIndices = require("users/dmlmont/spectral:spectral-indices");
+var scaling = require("users/dmlmont/spectral:spectral-scale-parameters");
+var offsetting = require("users/dmlmont/spectral:spectral-offset-parameters");
 
 /*
 ==========
@@ -59,56 +61,15 @@ Attributes
  */
 var indices = spectralIndices.indices;
 
-/*
-=======
-Methods
-=======
-*/
+/**
+ * Returns the dictionary of scale parameters.
+ */
+var scaleParams = scaling.scaleParams;
 
 /**
- * Computes an index, or a list of indices, on an image and adds it as a new band.
- * 
- * @param {ee.Image} img - Image to compute indices on.
- * @param {string|Array} index - Index or list of indices to compute.
- * @param {dict} params - Parameters to use for index computation.
+ * Returns the dictionary of offset parameters.
  */
-function computeIndex(img,index,params){
-  
-  if (!Array.isArray(index)) {
-    index = [index];
-  }
-  
-  for (var i = 0; i < index.length; i++) {
-    img = img.addBands(img.expression(indices[index[i]].formula,params).rename(index[i]));
-  }
-  
-  return img;
-  
-}
-
-/**
- * Computes a kernel image: k(a,b).
- * 
- * @param {ee.Image} img - Image to compute the kernel on.
- * @param {string} kernel - Kernel to use. One of 'linear', 'poly' or 'RBF'.
- * @param {dict} params - Parameters to use for the kernel computation.
- *      For kernel = 'linear', the parameters 'a' (band A) and 'b' (band B) must be declared.
- *      For kernel = 'RBF', the parameters 'a' (band A), 'b' (band B) and 'sigma' (length-scale)
- *      must be declared.
- *      For kernel = 'poly', the parameters 'a' (band A), 'b' (band B), 'p' (kernel degree) and
- *      'c' (trade-off) must be declared.
- */
-function computeKernel(img,kernel,params){
-  
-  var kernels = {
-    "linear": "a * b",
-    "RBF": "exp((-1.0 * (a - b) ** 2.0)/(2.0 * sigma ** 2.0))",
-    "poly": "((a * b) + c) ** p"
-  };
-  
-  return img.expression(kernels[kernel],params);
-  
-}
+var offsetParams = offsetting.offsetParams;
 
 /**
  * Returns the default values for the additional parameters.
@@ -168,12 +129,101 @@ var describeParameters = {
 
 /*
 =======
+Methods
+=======
+*/
+
+/**
+ * Computes an index, or a list of indices, on an image and adds it as a new band.
+ * 
+ * @param {ee.Image} img - Image to compute indices on.
+ * @param {string|Array} index - Index or list of indices to compute.
+ * @param {dict} params - Parameters to use for index computation.
+ */
+function computeIndex(img,index,params){
+  
+  if (!Array.isArray(index)) {
+    index = [index];
+  }
+  
+  for (var i = 0; i < index.length; i++) {
+    img = img.addBands(img.expression(indices[index[i]].formula,params).rename(index[i]));
+  }
+  
+  return img;
+  
+}
+
+/**
+ * Computes a kernel image: k(a,b).
+ * 
+ * @param {ee.Image} img - Image to compute the kernel on.
+ * @param {string} kernel - Kernel to use. One of 'linear', 'poly' or 'RBF'.
+ * @param {dict} params - Parameters to use for the kernel computation.
+ *      For kernel = 'linear', the parameters 'a' (band A) and 'b' (band B) must be declared.
+ *      For kernel = 'RBF', the parameters 'a' (band A), 'b' (band B) and 'sigma' (length-scale)
+ *      must be declared.
+ *      For kernel = 'poly', the parameters 'a' (band A), 'b' (band B), 'p' (kernel degree) and
+ *      'c' (trade-off) must be declared.
+ */
+function computeKernel(img,kernel,params){
+  
+  var kernels = {
+    "linear": "a * b",
+    "RBF": "exp((-1.0 * (a - b) ** 2.0)/(2.0 * sigma ** 2.0))",
+    "poly": "((a * b) + c) ** p"
+  };
+  
+  return img.expression(kernels[kernel],params);
+  
+}
+
+/**
+ * Offsets an image using the offset parameters of the dataset.
+ * 
+ * @param {ee.Image} img - Image to offset.
+ * @param {string} dataset - Dataset to get parameters from.
+ */
+function offset(img,dataset){
+  
+  var bands = img.bandNames();
+  var params = ee.Dictionary(offsetting.offsetParams[dataset]);
+  var paramsImage = params.toImage().select(bands);
+  var offsetImage = img.add(paramsImage);
+  
+  return ee.Image(offsetImage.copyProperties(img,img.propertyNames()));
+  
+}
+
+/**
+ * Scales an image using the scale parameters of the dataset.
+ * 
+ * @param {ee.Image} img - Image to scale.
+ * @param {string} dataset - Dataset to get parameters from.
+ */
+function scale(img,dataset){
+  
+  var bands = img.bandNames();
+  var params = ee.Dictionary(scaling.scaleParams[dataset]);
+  var paramsImage = params.toImage().select(bands);
+  var scaledImage = img.multiply(paramsImage);
+  
+  return ee.Image(scaledImage.copyProperties(img,img.propertyNames()));
+  
+}
+
+/*
+=======
 Exports
 =======
 */
 
 exports.indices = indices;
-exports.computeIndex = computeIndex;
-exports.computeKernel = computeKernel;
+exports.scaleParameters = scaleParams;
+exports.offsetParameters = offsetParams;
 exports.defaultParameters = defaultParameters;
 exports.describeParameters = describeParameters;
+exports.computeIndex = computeIndex;
+exports.computeKernel = computeKernel;
+exports.offset = offset;
+exports.scale = scale;

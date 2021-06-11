@@ -26,6 +26,9 @@ print('Required bands for NDVI',spectral.indices.NDVI.bands);
 print('Required bands for GNDVI',spectral.indices.GNDVI.bands);
 print('Required bands for SeLI',spectral.indices.SeLI.bands);
 
+// DATASET TO USE: SENTINEL-2 SR
+var dataset = 'COPERNICUS/S2_SR';
+
 // FUNCTION TO MAP OVER AN IMAGE COLLECTION
 function addIndices(img) {
   
@@ -38,13 +41,16 @@ function addIndices(img) {
     "RE4": img.select("B8A"),
   };
   
+  // SCALE THE IMAGE
+  img = spectral.scale(img,dataset);
+  
   // COMPUTE THE NDVI, GNDVI and SeLI
   return spectral.computeIndex(img,["NDVI","GNDVI","SeLI"],parameters);
   
 }
 
-// DATASET TO USE: SENTINEL-2 SR
-var S2 = ee.ImageCollection('COPERNICUS/S2_SR')
+// FILTER THE DATASET AND COMPUTE THE INDICES
+var S2 = ee.ImageCollection(dataset)
   .filterBounds(pivot)
   .filterDate('2018-01-01','2021-01-01')
   .map(addIndices); // Mapping indices
