@@ -37,6 +37,7 @@ Welcome to Spectral!
    methods   
    examples
    contributing
+   changelog
 
 - GitHub: `https://github.com/davemlz/spectral <https://github.com/davemlz/spectral>`_
 - Documentation: `https://ee-spectral.readthedocs.io/ <https://ee-spectral.readthedocs.io/>`_
