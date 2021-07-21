@@ -3,3 +3,4 @@ recommonmark
 sphinxcontrib-autoprogram
 sphinx-material
 sphinx-copybutton
+furo

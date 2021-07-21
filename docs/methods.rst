@@ -218,7 +218,7 @@ spectral.offset
    var L8 = spectral.offset(L8,dataset)
    
 spectral.offsetParameters
-------------------------
+---------------------------
 
 .. js:attribute:: spectral.offsetParameters
 

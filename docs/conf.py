@@ -15,6 +15,7 @@
 # sys.path.insert(0, os.path.abspath('.'))
 
 
+
 # -- Project information -----------------------------------------------------
 
 project = 'spectral'
@@ -30,7 +31,7 @@ release = '0.0.1'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = [    
+extensions = [
     'sphinx_copybutton'    
 ]
 
@@ -48,37 +49,24 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'sphinx_material'
+#html_theme = 'sphinx_material'
+#html_theme = 'press'
+html_theme = 'furo'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
-# Material theme options (see theme.conf for more information)
 html_theme_options = {
-
-    # Set the name of the project to appear in the navigation.
-    'nav_title': 'Spectral',
-    
-    # Set the color and the accent color
-    'color_primary': 'red',
-    'color_accent': 'amber',
-
-    # Set the repo location to get a badge with stats
-    'repo_url': 'https://github.com/davemlz/spectral',
-    'repo_name': 'spectral',
-
-    # Visible levels of the global TOC; -1 means unlimited
-    'globaltoc_depth': 2,
-    # If False, expand all TOC entries
-    'globaltoc_collapse': False,
-    # If True, show hidden TOC entries
-    'globaltoc_includehidden': True,
-    
-    'master_doc': False
+    "sidebar_hide_name": True,
+    "navigation_with_keys": True,
+    "light_css_variables": {
+        "color-brand-primary": "#900C3F",
+        "color-brand-content": "#900C3F",        
+    },
 }
 
-html_sidebars = {
-    "**": ["logo-text.html", "globaltoc.html", "localtoc.html", "searchbox.html"]
-}
+#html_sidebars = {
+#    "**": ["logo-text.html", "globaltoc.html", "localtoc.html", "searchbox.html"]
+#}
