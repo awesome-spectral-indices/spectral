@@ -62,7 +62,7 @@ Check the simple usage of spectral here:
 List
 -------
 
-Check the full list of spectral indices `here <https://github.com/davemlz/awesome-ee-spectral-indices/blob/main/output/spectral-indices-table.csv>`_.
+Check the full list of spectral indices `here <https://awesome-ee-spectral-indices.readthedocs.io/en/latest/list.html>`_.
 
 How does it work?
 -----------------------
