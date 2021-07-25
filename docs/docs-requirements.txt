@@ -3,4 +3,5 @@ recommonmark
 sphinxcontrib-autoprogram
 sphinx-material
 sphinx-copybutton
+pydata_sphinx_theme
 furo

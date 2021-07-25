@@ -51,21 +51,27 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 #
 #html_theme = 'sphinx_material'
 #html_theme = 'press'
-html_theme = 'furo'
+html_theme = "pydata_sphinx_theme"
+
+html_theme_options = {    
+    "icon_links": [
+        {
+            "name": "GitHub",
+            "url": "https://github.com/davemlz/spectral",
+            "icon": "fab fa-github-square",
+        },
+        {
+            "name": "Twitter",
+            "url": "https://twitter.com/dmlmont",
+            "icon": "fab fa-twitter-square",
+        },
+    ],    
+}
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
-
-html_theme_options = {
-    "sidebar_hide_name": True,
-    "navigation_with_keys": True,
-    "light_css_variables": {
-        "color-brand-primary": "#900C3F",
-        "color-brand-content": "#900C3F",        
-    },
-}
 
 #html_sidebars = {
 #    "**": ["logo-text.html", "globaltoc.html", "localtoc.html", "searchbox.html"]
