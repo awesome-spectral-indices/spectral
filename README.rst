@@ -1,5 +1,12 @@
-Welcome to Spectral!
-====================
+.. raw:: html
+
+   <embed>
+     <p align="center">
+       <a href="https://github.com/davemlz/spectral"><img src="https://raw.githubusercontent.com/davemlz/davemlz/main/spectral.png" height="200px"/></a>
+       <br>
+       <b><a href="https://github.com/davemlz/awesome-ee-spectral-indices">Awesome Spectral Indices</a> for the <a href="https://earthengine.google.com/">Google Earth Engine</a> JavaScript API (Code Editor)</b>
+     </p>
+   </embed>
 
 .. image:: https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg
         :target: https://github.com/sindresorhus/awesome
@@ -26,9 +33,6 @@ Welcome to Spectral!
 .. image:: https://img.shields.io/twitter/follow/dmlmont?style=social
         :target: https://twitter.com/dmlmont
         
-
-**Awesome Spectral Indices for the Google Earth Engine JavaScript API (Code Editor).**
-
 - GitHub: `https://github.com/davemlz/spectral <https://github.com/davemlz/spectral>`_
 - Documentation: `https://ee-spectral.readthedocs.io/ <https://ee-spectral.readthedocs.io/>`_
 - Awesome Spectral Indices for GEE: `https://github.com/davemlz/awesome-ee-spectral-indices <https://github.com/davemlz/awesome-ee-spectral-indices>`_
