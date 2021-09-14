@@ -4,7 +4,7 @@
      <p align="center">
        <a href="https://github.com/davemlz/spectral"><img src="https://raw.githubusercontent.com/davemlz/davemlz/main/spectral.png" height="200px"/></a>
        <br>
-       <b><a href="https://github.com/davemlz/awesome-ee-spectral-indices">Awesome Spectral Indices</a> for the <a href="https://earthengine.google.com/">Google Earth Engine</a> JavaScript API (Code Editor)</b>
+       <b><a href="https://github.com/davemlz/awesome-spectral-indices">Awesome Spectral Indices</a> for the <a href="https://earthengine.google.com/">Google Earth Engine</a> JavaScript API (Code Editor)</b>
      </p>
    </embed>
 
@@ -35,13 +35,13 @@
         
 - GitHub: `https://github.com/davemlz/spectral <https://github.com/davemlz/spectral>`_
 - Documentation: `https://ee-spectral.readthedocs.io/ <https://ee-spectral.readthedocs.io/>`_
-- Awesome Spectral Indices for GEE: `https://github.com/davemlz/awesome-ee-spectral-indices <https://github.com/davemlz/awesome-ee-spectral-indices>`_
+- Awesome Spectral Indices: `https://github.com/davemlz/awesome-spectral-indices <https://github.com/davemlz/awesome-spectral-indices>`_
 - Examples/Tutorials: `https://github.com/davemlz/spectral/tree/main/examples <https://github.com/davemlz/spectral/tree/main/examples>`_
 
 Overview
 -------------------
 
-`Google Earth Engine <https://earthengine.google.com/>`_ (GEE) is a cloud-based service for geospatial processing of vector and raster data. The Earth Engine platform has a `JavaScript and a Python API <https://developers.google.com/earth-engine/guides>`_ with different methods to process geospatial objects. Google Earth Engine also provides a `HUGE PETABYTE-SCALE CATALOG <https://developers.google.com/earth-engine/datasets/>`_ of raster and vector data that users can process online. The `Awesome Spectral Indices for GEE <https://github.com/davemlz/awesome-ee-spectral-indices>`_ is a standardized ready-to-use curated list of spectral indices that can be used as expressions for computing spectral indices in GEE. The spectral module extends the GEE JavaScript API with new functions to access and compute spectral indices from the `Awesome List of Spectral Indices <https://github.com/davemlz/awesome-ee-spectral-indices>`_.
+`Google Earth Engine <https://earthengine.google.com/>`_ (GEE) is a cloud-based service for geospatial processing of vector and raster data. The Earth Engine platform has a `JavaScript and a Python API <https://developers.google.com/earth-engine/guides>`_ with different methods to process geospatial objects. Google Earth Engine also provides a `HUGE PETABYTE-SCALE CATALOG <https://developers.google.com/earth-engine/datasets/>`_ of raster and vector data that users can process online. The `Awesome Spectral Indices <https://github.com/davemlz/awesome-spectral-indices>`_ is a standardized ready-to-use curated list of spectral indices that can be used as expressions for computing spectral indices in GEE. The spectral module extends the GEE JavaScript API with new functions to access and compute spectral indices from the `Awesome List of Spectral Indices <https://github.com/davemlz/awesome-spectral-indices>`_.
 
 Check the simple usage of spectral here:
 
