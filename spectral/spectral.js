@@ -82,6 +82,7 @@ var defaultParameters = {
   "cexp": 1.16,
   "nexp": 2.0,
   "alpha": 0.1,
+  "gamma": 1.0,
   "sla": 1.0,
   "slb": 0.0,
   "p": 2.0,
@@ -116,6 +117,7 @@ var describeParameters = {
       "cexp": "Exponent used for OCVI",
       "nexp": "Exponent used for GDVI",
       "alpha": "Weighting coefficient used for WDRVI",
+      "gamma": "Weighting coefficient used for ARVI",
       "sla": "Soil line slope",
       "slb": "Soil line intercept"
     },

@@ -4,6 +4,11 @@ Changelog
 v0.0.3
 ------
 
+New Features
+~~~~~~~~~~~~
+
+- The :code:`gamma` parameter was added to :code:`defaultParameters` and :code:`describeParameters`.
+
 Improvements
 ~~~~~~~~~~~~
 
