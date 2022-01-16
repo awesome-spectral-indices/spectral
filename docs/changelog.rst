@@ -1,6 +1,19 @@
 Changelog
 ============
 
+v0.0.4
+------
+
+New Features
+~~~~~~~~~~~~
+
+- The :code:`PAR` parameter was added to :code:`describeParameters`.
+
+Improvements
+~~~~~~~~~~~~
+
+- The `Awesome Spectral Indices <https://github.com/davemlz/awesome-spectral-indices>`_ list was upgraded to v0.0.4.
+
 v0.0.3
 ------
 
