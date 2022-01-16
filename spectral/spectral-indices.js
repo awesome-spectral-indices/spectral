@@ -40,6 +40,32 @@ Attributes
 
 var spectralIndices = {
     "SpectralIndices": {
+        "AFRI1600": {
+            "bands": [
+                "N",
+                "S1"
+            ],
+            "contributor": "https://github.com/davemlz",
+            "date_of_addition": "2021-11-17",
+            "formula": "(N - 0.66 * S1) / (N + 0.66 * S1)",
+            "long_name": "Aerosol Free Vegetation Index (1600 nm)",
+            "reference": "https://doi.org/10.1016/S0034-4257(01)00190-0",
+            "short_name": "AFRI1600",
+            "type": "vegetation"
+        },
+        "AFRI2100": {
+            "bands": [
+                "N",
+                "S2"
+            ],
+            "contributor": "https://github.com/davemlz",
+            "date_of_addition": "2021-11-17",
+            "formula": "(N - 0.5 * S2) / (N + 0.5 * S2)",
+            "long_name": "Aerosol Free Vegetation Index (2100 nm)",
+            "reference": "https://doi.org/10.1016/S0034-4257(01)00190-0",
+            "short_name": "AFRI2100",
+            "type": "vegetation"
+        },
         "ARI": {
             "bands": [
                 "G",
@@ -236,6 +262,32 @@ var spectralIndices = {
             "reference": "https://doi.org/10.2307/1936256",
             "short_name": "DVI",
             "type": "vegetation"
+        },
+        "DpRVIHH": {
+            "bands": [
+                "HV",
+                "HH"
+            ],
+            "contributor": "https://github.com/davemlz",
+            "date_of_addition": "2021-12-25",
+            "formula": "(4.0 * HV)/(HH + HV)",
+            "long_name": "Dual-Polarized Radar Vegetation Index HH",
+            "reference": "https://www.tandfonline.com/doi/abs/10.5589/m12-043",
+            "short_name": "DpRVIHH",
+            "type": "radar"
+        },
+        "DpRVIVV": {
+            "bands": [
+                "VH",
+                "VV"
+            ],
+            "contributor": "https://github.com/davemlz",
+            "date_of_addition": "2021-12-25",
+            "formula": "(4.0 * VH)/(VV + VH)",
+            "long_name": "Dual-Polarized Radar Vegetation Index VV",
+            "reference": "https://doi.org/10.3390/app9040655",
+            "short_name": "DpRVIVV",
+            "type": "radar"
         },
         "EBBI": {
             "bands": [
@@ -722,6 +774,19 @@ var spectralIndices = {
             "short_name": "NDDI",
             "type": "drought"
         },
+        "NDMI": {
+            "bands": [
+                "N",
+                "S1"
+            ],
+            "contributor": "https://github.com/bpurinton",
+            "date_of_addition": "2021-12-01",
+            "formula": "(N - S1)/(N + S1)",
+            "long_name": "Normalized Difference Moisture Index",
+            "reference": "https://doi.org/10.1016/S0034-4257(01)00318-2",
+            "short_name": "NDMI",
+            "type": "vegetation"
+        },
         "NDREI": {
             "bands": [
                 "N",
@@ -853,6 +918,33 @@ var spectralIndices = {
             "short_name": "NHFD",
             "type": "urban"
         },
+        "NIRv": {
+            "bands": [
+                "N",
+                "R"
+            ],
+            "contributor": "https://github.com/davemlz",
+            "date_of_addition": "2021-11-16",
+            "formula": "((N - R) / (N + R)) * N",
+            "long_name": "Near-Infrared Reflectance of Vegetation",
+            "reference": "https://doi.org/10.1126/sciadv.1602244",
+            "short_name": "NIRv",
+            "type": "vegetation"
+        },
+        "NIRvP": {
+            "bands": [
+                "N",
+                "R",
+                "PAR"
+            ],
+            "contributor": "https://github.com/davemlz",
+            "date_of_addition": "2021-11-18",
+            "formula": "((N - R) / (N + R)) * N * PAR",
+            "long_name": "Near-Infrared Reflectance of Vegetation and Incoming PAR",
+            "reference": "https://doi.org/10.1016/j.rse.2021.112763",
+            "short_name": "NIRvP",
+            "type": "vegetation"
+        },
         "NLI": {
             "bands": [
                 "N",
@@ -934,6 +1026,20 @@ var spectralIndices = {
             "short_name": "OSAVI",
             "type": "vegetation"
         },
+        "QpRVI": {
+            "bands": [
+                "HV",
+                "HH",
+                "VV"
+            ],
+            "contributor": "https://github.com/davemlz",
+            "date_of_addition": "2021-12-24",
+            "formula": "(8.0 * HV)/(HH + VV + 2.0 * HV)",
+            "long_name": "Quad-Polarized Radar Vegetation Index",
+            "reference": "https://doi.org/10.1109/IGARSS.2001.976856",
+            "short_name": "QpRVI",
+            "type": "radar"
+        },
         "RDVI": {
             "bands": [
                 "N",
@@ -960,6 +1066,19 @@ var spectralIndices = {
             "reference": "https://doi.org/10.3390/s18030868",
             "short_name": "REDSI",
             "type": "vegetation"
+        },
+        "RFDI": {
+            "bands": [
+                "HH",
+                "HV"
+            ],
+            "contributor": "https://github.com/davemlz",
+            "date_of_addition": "2021-12-25",
+            "formula": "(HH - HV)/(HH + HV)",
+            "long_name": "Radar Forest Degradation Index",
+            "reference": "https://doi.org/10.5194/bg-9-179-2012",
+            "short_name": "RFDI",
+            "type": "radar"
         },
         "RVI": {
             "bands": [
