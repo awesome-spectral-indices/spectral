@@ -119,7 +119,8 @@ var describeParameters = {
       "alpha": "Weighting coefficient used for WDRVI",
       "gamma": "Weighting coefficient used for ARVI",
       "sla": "Soil line slope",
-      "slb": "Soil line intercept"
+      "slb": "Soil line intercept",
+      "PAR": "Photosynthetically Active Radiation"
     },
     "Kernel Parameters": {
       "sigma": "Length-scale parameter in the RBF kernel",
