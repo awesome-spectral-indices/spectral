@@ -18,6 +18,9 @@
         :target: https://ee-spectral.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
 
+.. image:: https://zenodo.org/badge/367967462.svg
+         :target: https://zenodo.org/badge/latestdoi/367967462
+
 .. image:: https://img.shields.io/badge/GitHub%20Sponsors-Donate-ff69b4.svg
         :target: https://github.com/sponsors/davemlz
 
