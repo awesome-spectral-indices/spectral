@@ -1,6 +1,14 @@
 Changelog
 ============
 
+v0.0.5 (dev)
+------------
+
+New Features
+~~~~~~~~~~~~
+
+- The :code:`omega` parameter was added to :code:`defaultParameters` and :code:`describeParameters`.
+
 v0.0.4
 ------
 
