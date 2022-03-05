@@ -83,6 +83,7 @@ var defaultParameters = {
   "nexp": 2.0,
   "alpha": 0.1,
   "gamma": 1.0,
+  "omega": 2.0,
   "sla": 1.0,
   "slb": 0.0,
   "p": 2.0,
@@ -118,6 +119,7 @@ var describeParameters = {
       "nexp": "Exponent used for GDVI",
       "alpha": "Weighting coefficient used for WDRVI",
       "gamma": "Weighting coefficient used for ARVI",
+      "omega": "Weighting coefficient used for MBWI",
       "sla": "Soil line slope",
       "slb": "Soil line intercept",
       "PAR": "Photosynthetically Active Radiation"
