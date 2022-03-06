@@ -11,6 +11,11 @@ New Features
 - The :code:`lambdaN`, :code:`lambdaR` and :code:`lambdaG` parameters were added to :code:`describeParameters`.
 - The :code:`k` was added to :code:`describeParameters`.
 
+Improvements
+~~~~~~~~~~~~
+
+- The `Awesome Spectral Indices <https://github.com/davemlz/awesome-spectral-indices>`_ list was upgraded to v0.0.6.
+
 v0.0.4
 ------
 
