@@ -122,7 +122,10 @@ var describeParameters = {
       "omega": "Weighting coefficient used for MBWI",
       "sla": "Soil line slope",
       "slb": "Soil line intercept",
-      "PAR": "Photosynthetically Active Radiation"
+      "PAR": "Photosynthetically Active Radiation",
+      "lambdaN": "NIR wavelength used for NIRvH2 and NDGI",
+      "lambdaR": "Red wavelength used for NIRvH2 and NDGI",
+      "lambdaG": "Green wavelength used for NDGI"
     },
     "Kernel Parameters": {
       "sigma": "Length-scale parameter in the RBF kernel",
