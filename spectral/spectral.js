@@ -123,6 +123,7 @@ var describeParameters = {
       "sla": "Soil line slope",
       "slb": "Soil line intercept",
       "PAR": "Photosynthetically Active Radiation",
+      "k": "Slope parameter by soil used for NIRvH2",
       "lambdaN": "NIR wavelength used for NIRvH2 and NDGI",
       "lambdaR": "Red wavelength used for NIRvH2 and NDGI",
       "lambdaG": "Green wavelength used for NDGI"
