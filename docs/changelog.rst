@@ -8,7 +8,8 @@ New Features
 ~~~~~~~~~~~~
 
 - The :code:`omega` parameter was added to :code:`defaultParameters` and :code:`describeParameters`.
-- The :code:`lambda` parameters were added to :code:`describeParameters`.
+- The :code:`lambdaN`, :code:`lambdaR` and :code:`lambdaG` parameters were added to :code:`describeParameters`.
+- The :code:`k` was added to :code:`describeParameters`.
 
 v0.0.4
 ------
