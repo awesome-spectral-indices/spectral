@@ -169,16 +169,45 @@ var spectralIndices = {
             "short_name": "BAIS2",
             "type": "burn"
         },
+        "BCC": {
+            "bands": [
+                "B",
+                "R",
+                "G"
+            ],
+            "contributor": "https://github.com/davemlz",
+            "date_of_addition": "2022-01-17",
+            "formula": "B / (R + G + B)",
+            "long_name": "Blue Chromatic Coordinate",
+            "reference": "https://doi.org/10.1016/0034-4257(87)90088-5",
+            "short_name": "BCC",
+            "type": "vegetation"
+        },
+        "BLFEI": {
+            "bands": [
+                "G",
+                "R",
+                "S2",
+                "S1"
+            ],
+            "contributor": "https://github.com/davemlz",
+            "date_of_addition": "2022-02-09",
+            "formula": "(((G+R+S2)/3.0)-S1)/(((G+R+S2)/3.0)+S1)",
+            "long_name": "Built-Up Land Features Extraction Index",
+            "reference": "https://doi.org/10.1080/10106049.2018.1497094",
+            "short_name": "BLFEI",
+            "type": "urban"
+        },
         "BNDVI": {
             "bands": [
                 "N",
                 "B"
             ],
-            "contributor": "https://github.com/davemlz",
+            "contributor": "https://github.com/MATRIX4284",
             "date_of_addition": "2021-04-07",
             "formula": "(N - B)/(N + B)",
             "long_name": "Blue Normalized Difference Vegetation Index",
-            "reference": "https://www.indexdatabase.de/db/i-single.php?id=135",
+            "reference": "https://doi.org/10.1016/S1672-6308(07)60027-4",
             "short_name": "BNDVI",
             "type": "vegetation"
         },
@@ -261,6 +290,23 @@ var spectralIndices = {
             "long_name": "Difference Vegetation Index",
             "reference": "https://doi.org/10.2307/1936256",
             "short_name": "DVI",
+            "type": "vegetation"
+        },
+        "DVIplus": {
+            "bands": [
+                "lambdaN",
+                "lambdaR",
+                "lambdaG",
+                "G",
+                "N",
+                "R"
+            ],
+            "contributor": "https://github.com/davemlz",
+            "date_of_addition": "2022-01-20",
+            "formula": "((lambdaN - lambdaR)/(lambdaN - lambdaG)) * G + (1.0 - ((lambdaN - lambdaR)/(lambdaN - lambdaG))) * N - R",
+            "long_name": "Difference Vegetation Index Plus",
+            "reference": "https://doi.org/10.1016/j.rse.2019.03.028",
+            "short_name": "DVIplus",
             "type": "vegetation"
         },
         "DpRVIHH": {
@@ -350,6 +396,21 @@ var spectralIndices = {
             "short_name": "ExG",
             "type": "vegetation"
         },
+        "FCVI": {
+            "bands": [
+                "N",
+                "R",
+                "G",
+                "B"
+            ],
+            "contributor": "https://github.com/davemlz",
+            "date_of_addition": "2022-01-20",
+            "formula": "N - ((R + G + B)/3.0)",
+            "long_name": "Fluorescence Correction Vegetation Index",
+            "reference": "https://doi.org/10.1016/j.rse.2020.111676",
+            "short_name": "FCVI",
+            "type": "vegetation"
+        },
         "GARI": {
             "bands": [
                 "N",
@@ -377,6 +438,20 @@ var spectralIndices = {
             "long_name": "Green-Blue Normalized Difference Vegetation Index",
             "reference": "https://www.indexdatabase.de/db/i-single.php?id=186",
             "short_name": "GBNDVI",
+            "type": "vegetation"
+        },
+        "GCC": {
+            "bands": [
+                "G",
+                "R",
+                "B"
+            ],
+            "contributor": "https://github.com/davemlz",
+            "date_of_addition": "2022-01-17",
+            "formula": "G / (R + G + B)",
+            "long_name": "Green Chromatic Coordinate",
+            "reference": "https://doi.org/10.1016/0034-4257(87)90088-5",
+            "short_name": "GCC",
             "type": "vegetation"
         },
         "GDVI": {
@@ -460,6 +535,22 @@ var spectralIndices = {
             "short_name": "GVMI",
             "type": "vegetation"
         },
+        "IBI": {
+            "bands": [
+                "S1",
+                "N",
+                "R",
+                "L",
+                "G"
+            ],
+            "contributor": "https://github.com/davemlz",
+            "date_of_addition": "2022-02-09",
+            "formula": "(((S1-N)/(S1+N))-(((N-R)*(1.0+L)/(N+R+L))+((G-S1)/(G+S1)))/2.0)/(((S1-N)/(S1+N))+(((N-R)*(1.0+L)/(N+R+L))+((G-S1)/(G+S1)))/2.0)",
+            "long_name": "Index-Based Built-Up Index",
+            "reference": "https://doi.org/10.1080/01431160802039957",
+            "short_name": "IBI",
+            "type": "urban"
+        },
         "IRECI": {
             "bands": [
                 "RE3",
@@ -474,6 +565,23 @@ var spectralIndices = {
             "reference": "https://doi.org/10.1016/j.isprsjprs.2013.04.007",
             "short_name": "IRECI",
             "type": "vegetation"
+        },
+        "MBWI": {
+            "bands": [
+                "omega",
+                "G",
+                "R",
+                "N",
+                "S1",
+                "S2"
+            ],
+            "contributor": "https://github.com/davemlz",
+            "date_of_addition": "2022-01-17",
+            "formula": "(omega * G) - R - N - S1 - S2",
+            "long_name": "Multi-Band Water Index",
+            "reference": "https://doi.org/10.1016/j.jag.2018.01.018",
+            "short_name": "MBWI",
+            "type": "water"
         },
         "MCARI": {
             "bands": [
@@ -774,6 +882,36 @@ var spectralIndices = {
             "short_name": "NDDI",
             "type": "drought"
         },
+        "NDGI": {
+            "bands": [
+                "lambdaN",
+                "lambdaR",
+                "lambdaG",
+                "G",
+                "N",
+                "R"
+            ],
+            "contributor": "https://github.com/davemlz",
+            "date_of_addition": "2022-01-20",
+            "formula": "(((lambdaN - lambdaR)/(lambdaN - lambdaG)) * G + (1.0 - ((lambdaN - lambdaR)/(lambdaN - lambdaG))) * N - R)/(((lambdaN - lambdaR)/(lambdaN - lambdaG)) * G + (1.0 - ((lambdaN - lambdaR)/(lambdaN - lambdaG))) * N + R)",
+            "long_name": "Normalized Difference Greenness Index",
+            "reference": "https://doi.org/10.1016/j.rse.2019.03.028",
+            "short_name": "NDGI",
+            "type": "vegetation"
+        },
+        "NDII": {
+            "bands": [
+                "N",
+                "S1"
+            ],
+            "contributor": "https://github.com/davemlz",
+            "date_of_addition": "2022-01-20",
+            "formula": "(N - S1)/(N + S1)",
+            "long_name": "Normalized Difference Infrared Index",
+            "reference": "https://www.asprs.org/wp-content/uploads/pers/1983journal/jan/1983_jan_77-83.pdf",
+            "short_name": "NDII",
+            "type": "vegetation"
+        },
         "NDMI": {
             "bands": [
                 "N",
@@ -785,6 +923,21 @@ var spectralIndices = {
             "long_name": "Normalized Difference Moisture Index",
             "reference": "https://doi.org/10.1016/S0034-4257(01)00318-2",
             "short_name": "NDMI",
+            "type": "vegetation"
+        },
+        "NDPI": {
+            "bands": [
+                "N",
+                "alpha",
+                "R",
+                "S1"
+            ],
+            "contributor": "https://github.com/davemlz",
+            "date_of_addition": "2022-01-20",
+            "formula": "(N - (alpha * R + (1.0 - alpha) * S1))/(N + (alpha * R + (1.0 - alpha) * S1))",
+            "long_name": "Normalized Difference Phenology Index",
+            "reference": "https://doi.org/10.1016/j.rse.2017.04.031",
+            "short_name": "NDPI",
             "type": "vegetation"
         },
         "NDREI": {
@@ -835,7 +988,7 @@ var spectralIndices = {
             "date_of_addition": "2021-04-07",
             "formula": "(N - R)/(N + R)",
             "long_name": "Normalized Difference Vegetation Index",
-            "reference": "https://doi.org/10.1016/0034-4257(79)90013-0",
+            "reference": "https://ntrs.nasa.gov/citations/19740022614",
             "short_name": "NDVI",
             "type": "vegetation"
         },
@@ -851,6 +1004,21 @@ var spectralIndices = {
             "reference": "https://doi.org/10.1016/S0176-1617(11)81633-0",
             "short_name": "NDVI705",
             "type": "vegetation"
+        },
+        "NDVIMNDWI": {
+            "bands": [
+                "N",
+                "R",
+                "G",
+                "S1"
+            ],
+            "contributor": "https://github.com/davemlz",
+            "date_of_addition": "2022-01-17",
+            "formula": "((N - R)/(N + R)) - ((G - S1)/(G + S1))",
+            "long_name": "NDVI-MNDWI Model",
+            "reference": "https://doi.org/10.1007/978-3-662-45737-5_51",
+            "short_name": "NDVIMNDWI",
+            "type": "water"
         },
         "NDVIT": {
             "bands": [
@@ -931,6 +1099,22 @@ var spectralIndices = {
             "short_name": "NIRv",
             "type": "vegetation"
         },
+        "NIRvH2": {
+            "bands": [
+                "N",
+                "R",
+                "k",
+                "lambdaN",
+                "lambdaR"
+            ],
+            "contributor": "https://github.com/davemlz",
+            "date_of_addition": "2022-01-17",
+            "formula": "N - R - k * (lambdaN - lambdaR)",
+            "long_name": "Hyperspectral Near-Infrared Reflectance of Vegetation",
+            "reference": "https://doi.org/10.1016/j.rse.2021.112723",
+            "short_name": "NIRvH2",
+            "type": "vegetation"
+        },
         "NIRvP": {
             "bands": [
                 "N",
@@ -967,7 +1151,7 @@ var spectralIndices = {
             "contributor": "https://github.com/davemlz",
             "date_of_addition": "2021-05-11",
             "formula": "(N - (S1 - S2))/(N + (S1 - S2))",
-            "long_name": "Normalized Multi\u2010band Drought Index",
+            "long_name": "Normalized Multi-band Drought Index",
             "reference": "https://doi.org/10.1029/2007GL031021",
             "short_name": "NMDI",
             "type": "drought"
@@ -997,6 +1181,21 @@ var spectralIndices = {
             "reference": "https://doi.org/10.3390/rs13010105",
             "short_name": "NRFIr",
             "type": "vegetation"
+        },
+        "NWI": {
+            "bands": [
+                "B",
+                "N",
+                "S1",
+                "S2"
+            ],
+            "contributor": "https://github.com/davemlz",
+            "date_of_addition": "2022-01-17",
+            "formula": "(B - (N + S1 + S2))/(B + (N + S1 + S2))",
+            "long_name": "New Water Index",
+            "reference": "https://doi.org/10.11873/j.issn.1004-0323.2009.2.167",
+            "short_name": "NWI",
+            "type": "water"
         },
         "OCVI": {
             "bands": [
@@ -1039,6 +1238,20 @@ var spectralIndices = {
             "reference": "https://doi.org/10.1109/IGARSS.2001.976856",
             "short_name": "QpRVI",
             "type": "radar"
+        },
+        "RCC": {
+            "bands": [
+                "R",
+                "G",
+                "B"
+            ],
+            "contributor": "https://github.com/davemlz",
+            "date_of_addition": "2022-01-17",
+            "formula": "R / (R + G + B)",
+            "long_name": "Red Chromatic Coordinate",
+            "reference": "https://doi.org/10.1016/0034-4257(87)90088-5",
+            "short_name": "RCC",
+            "type": "vegetation"
         },
         "RDVI": {
             "bands": [
@@ -1107,6 +1320,19 @@ var spectralIndices = {
             "reference": "https://doi.org/10.1016/j.isprsjprs.2013.04.007",
             "short_name": "S2REP",
             "type": "vegetation"
+        },
+        "S2WI": {
+            "bands": [
+                "RE1",
+                "S2"
+            ],
+            "contributor": "https://github.com/MATRIX4284",
+            "date_of_addition": "2022-03-06",
+            "formula": "(RE1 - S2)/(RE1 + S2)",
+            "long_name": "Sentinel-2 Water Index",
+            "reference": "https://doi.org/10.3390/w13121647",
+            "short_name": "S2WI",
+            "type": "water"
         },
         "S3": {
             "bands": [
@@ -1376,6 +1602,19 @@ var spectralIndices = {
             "short_name": "TVI",
             "type": "vegetation"
         },
+        "UI": {
+            "bands": [
+                "S2",
+                "N"
+            ],
+            "contributor": "https://github.com/davemlz",
+            "date_of_addition": "2022-02-07",
+            "formula": "(S2 - N)/(S2 + N)",
+            "long_name": "Urban Index",
+            "reference": "https://www.isprs.org/proceedings/XXXI/congress/part7/321_XXXI-part7.pdf",
+            "short_name": "UI",
+            "type": "urban"
+        },
         "VARI": {
             "bands": [
                 "G",
@@ -1430,6 +1669,32 @@ var spectralIndices = {
             "short_name": "VIG",
             "type": "vegetation"
         },
+        "VgNIRBI": {
+            "bands": [
+                "G",
+                "N"
+            ],
+            "contributor": "https://github.com/davemlz",
+            "date_of_addition": "2022-02-09",
+            "formula": "(G - N)/(G + N)",
+            "long_name": "Visible Green-Based Built-Up Index",
+            "reference": "https://doi.org/10.1016/j.ecolind.2015.03.037",
+            "short_name": "VgNIRBI",
+            "type": "urban"
+        },
+        "VrNIRBI": {
+            "bands": [
+                "R",
+                "N"
+            ],
+            "contributor": "https://github.com/davemlz",
+            "date_of_addition": "2022-02-09",
+            "formula": "(R - N)/(R + N)",
+            "long_name": "Visible Red-Based Built-Up Index",
+            "reference": "https://doi.org/10.1016/j.ecolind.2015.03.037",
+            "short_name": "VrNIRBI",
+            "type": "urban"
+        },
         "WDRVI": {
             "bands": [
                 "alpha",
@@ -1482,6 +1747,21 @@ var spectralIndices = {
             "long_name": "Water Index 2",
             "reference": "https://doi.org/10.3390/rs11182186",
             "short_name": "WI2",
+            "type": "water"
+        },
+        "WRI": {
+            "bands": [
+                "G",
+                "R",
+                "N",
+                "S1"
+            ],
+            "contributor": "https://github.com/davemlz",
+            "date_of_addition": "2022-01-17",
+            "formula": "(G + R)/(N + S1)",
+            "long_name": "Water Ratio Index",
+            "reference": "https://doi.org/10.1109/GEOINFORMATICS.2010.5567762",
+            "short_name": "WRI",
             "type": "water"
         },
         "kEVI": {
