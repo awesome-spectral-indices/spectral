@@ -29,17 +29,20 @@
         
 .. image:: https://img.shields.io/badge/kofi-Donate-ff69b4.svg
         :target: https://ko-fi.com/davemlz
-        
+
+.. image:: https://github.com/davemlz/spyndex/actions/workflows/update_spectral_indices.yml/badge.svg
+         :target: https://github.com/davemlz/spyndex/actions/workflows/update_spectral_indices.yml
+
 .. image:: https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/davemlz/5e9f08fa6a45d9d486e29d9d85ad5c84/raw/spectral.json
-        :target: https://github.com/davemlz/awesome-ee-spectral-indices/blob/main/output/spectral-indices-dict.json
+        :target: https://github.com/awesome-spectral-indices/awesome-spectral-indices/blob/main/output/spectral-indices-dict.json
         
 .. image:: https://img.shields.io/twitter/follow/dmlmont?style=social
         :target: https://twitter.com/dmlmont
         
-- GitHub: `https://github.com/davemlz/spectral <https://github.com/davemlz/spectral>`_
+- GitHub: `https://github.com/awesome-spectral-indices/spectral <https://github.com/awesome-spectral-indices/spectral>`_
 - Documentation: `https://ee-spectral.readthedocs.io/ <https://ee-spectral.readthedocs.io/>`_
-- Awesome Spectral Indices: `https://github.com/davemlz/awesome-spectral-indices <https://github.com/davemlz/awesome-spectral-indices>`_
-- Examples/Tutorials: `https://github.com/davemlz/spectral/tree/main/examples <https://github.com/davemlz/spectral/tree/main/examples>`_
+- Awesome Spectral Indices: `https://github.com/awesome-spectral-indices/awesome-spectral-indices <https://github.com/awesome-spectral-indices/awesome-spectral-indices>`_
+- Examples/Tutorials: `https://github.com/awesome-spectral-indices/spectral/tree/main/examples <https://github.com/awesome-spectral-indices/spectral/tree/main/examples>`_
 
 Overview
 -------------------
