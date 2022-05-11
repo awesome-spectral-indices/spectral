@@ -167,8 +167,6 @@ Exports
 exports.indices = indices;
 exports.scaleParameters = scaleParams;
 exports.offsetParameters = offsetParams;
-exports.defaultParameters = defaultParameters;
-exports.describeParameters = describeParameters;
 exports.computeIndex = computeIndex;
 exports.computeKernel = computeKernel;
 exports.offset = offset;
