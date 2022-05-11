@@ -19,7 +19,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
           pip install jsbeautifier
-      - name: gee auth cookie        
+      - name: gee auth cookie and sync       
         run: |
           eval 'set +o history' 2>/dev/null || setopt HIST_IGNORE_SPACE 2>/dev/null
            touch ~/.gitcookies
@@ -31,10 +31,6 @@ jobs:
           ${GIT_GEE_COOKIE}
           __END__
           eval 'set -o history' 2>/dev/null || unsetopt HIST_IGNORE_SPACE 2>/dev/null
-        env:
-          GIT_GEE_COOKIE: ${{ secrets.GIT_GEE_COOKIE }}
-      - name: execute ASI     
-        run: |
           today=$(date +"%Y-%m-%d %H:%M:%S")
           mkdir gee-repo
           cd gee-repo
@@ -44,3 +40,5 @@ jobs:
           git add .
           git commit -m "Sync GEE Repo with GH ${today} UTC"
           git push origin master
+        env:
+          GIT_GEE_COOKIE: ${{ secrets.GIT_GEE_COOKIE }}          
