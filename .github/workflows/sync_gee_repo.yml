@@ -31,6 +31,13 @@ jobs:
           ${GIT_GEE_COOKIE}
           __END__
           eval 'set -o history' 2>/dev/null || unsetopt HIST_IGNORE_SPACE 2>/dev/null
+          
+          git config http.cookiefile ~/.gitcookies
+          git config http.postBuffer 157286400
+          git config user.email "githubActionAutoMerge@no-one.com"
+          git config user.name "githubActionAutoMerge"
+          git config pull.rebase false 
+          
           today=$(date +"%Y-%m-%d %H:%M:%S")
           mkdir gee-repo
           cd gee-repo
