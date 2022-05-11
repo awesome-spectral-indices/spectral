@@ -19,9 +19,12 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
           pip install jsbeautifier
-      - name: execute        
+      - name: execute ASI     
         run: |
           python ./.github/scripts/update_spectral_indices.py
+      - name: execute Offset Scale     
+        run: |
+          python ./.github/scripts/update_scale_offset.py
       - name: commit
         continue-on-error: true
         run: |
@@ -29,7 +32,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -A
-          git commit -m "Updated Awesome Spectral Indices ${today} UTC" -a
+          git commit -m "Updated ASI, Offset, Scale ${today} UTC" -a
       - name: push
         continue-on-error: true
         uses: ad-m/github-push-action@v0.6.0
