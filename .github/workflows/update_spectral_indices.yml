@@ -25,6 +25,9 @@ jobs:
       - name: execute Offset Scale     
         run: |
           python ./.github/scripts/update_scale_offset.py
+      - name: execute Bands Constants    
+        run: |
+          python ./.github/scripts/update_bands_constants.py
       - name: commit
         continue-on-error: true
         run: |
