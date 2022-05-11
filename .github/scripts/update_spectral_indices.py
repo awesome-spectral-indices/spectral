@@ -68,3 +68,5 @@ res = jsbeautifier.beautify(previousCode + "\n" + code + ";\n" + nextCode)
 # Saving the code into the JS file
 with open("../spectral/spectral-indices.js", "w") as fp:
     fp.write(res)
+
+print(res)
