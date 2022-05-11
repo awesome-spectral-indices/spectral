@@ -30,8 +30,8 @@
 .. image:: https://img.shields.io/badge/kofi-Donate-ff69b4.svg
         :target: https://ko-fi.com/davemlz
 
-.. image:: https://github.com/davemlz/spyndex/actions/workflows/update_spectral_indices.yml/badge.svg
-         :target: https://github.com/davemlz/spyndex/actions/workflows/update_spectral_indices.yml
+.. image:: https://github.com/awesome-spectral-indices/spectral/actions/workflows/update_spectral_indices.yml/badge.svg
+         :target: https://github.com/awesome-spectral-indices/spectral/actions/workflows/update_spectral_indices.yml
 
 .. image:: https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/davemlz/5e9f08fa6a45d9d486e29d9d85ad5c84/raw/spectral.json
         :target: https://github.com/awesome-spectral-indices/awesome-spectral-indices/blob/main/output/spectral-indices-dict.json
