@@ -289,7 +289,7 @@ var spectralIndices = {
             'formula': '(N * R) / (G ** 2.0)',
             'long_name': 'Chlorophyll Vegetation Index',
             'platforms': ['Sentinel-2', 'Landsat-OLI', 'Landsat-TM', 'Landsat-ETM+', 'MODIS', 'Planet-Fusion'],
-            'reference': 'https://www.cabdirect.org/cabdirect/abstract/20073176046',
+            'reference': 'https://doi.org/10.1007/s11119-010-9204-3',
             'short_name': 'CVI'
         },
         'DBI': {
@@ -465,7 +465,7 @@ var spectralIndices = {
             'formula': '(N - (G - (B - R))) / (N - (G + (B - R)))',
             'long_name': 'Green Atmospherically Resistant Vegetation Index',
             'platforms': ['Sentinel-2', 'Landsat-OLI', 'Landsat-TM', 'Landsat-ETM+', 'MODIS', 'Planet-Fusion'],
-            'reference': 'https://www.indexdatabase.de/db/i-single.php?id=363',
+            'reference': 'https://doi.org/10.1016/S0034-4257(96)00072-7',
             'short_name': 'GARI'
         },
         'GBNDVI': {
@@ -476,7 +476,7 @@ var spectralIndices = {
             'formula': '(N - (G + B))/(N + (G + B))',
             'long_name': 'Green-Blue Normalized Difference Vegetation Index',
             'platforms': ['Sentinel-2', 'Landsat-OLI', 'Landsat-TM', 'Landsat-ETM+', 'MODIS', 'Planet-Fusion'],
-            'reference': 'https://www.indexdatabase.de/db/i-single.php?id=186',
+            'reference': 'https://doi.org/10.1016/S1672-6308(07)60027-4',
             'short_name': 'GBNDVI'
         },
         'GCC': {
@@ -575,7 +575,7 @@ var spectralIndices = {
             'formula': '(N - (G + R))/(N + (G + R))',
             'long_name': 'Green-Red Normalized Difference Vegetation Index',
             'platforms': ['Sentinel-2', 'Landsat-OLI', 'Landsat-TM', 'Landsat-ETM+', 'MODIS', 'Planet-Fusion'],
-            'reference': 'https://www.indexdatabase.de/db/i-single.php?id=185',
+            'reference': 'https://doi.org/10.1016/S1672-6308(07)60027-4',
             'short_name': 'GRNDVI'
         },
         'GRVI': {
