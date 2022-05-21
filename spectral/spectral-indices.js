@@ -113,7 +113,7 @@ var spectralIndices = {
             'formula': '(N * (1.0 - R) * (N - R)) ** (1/3)',
             'long_name': 'Advanced Vegetation Index',
             'platforms': ['Sentinel-2', 'Landsat-OLI', 'Landsat-TM', 'Landsat-ETM+', 'MODIS', 'Planet-Fusion'],
-            'reference': 'http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.465.8749&rep=rep1&application_domain=pdf',
+            'reference': 'http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.465.8749&rep=rep1&type=pdf',
             'short_name': 'AVI'
         },
         'AWEInsh': {
@@ -190,7 +190,7 @@ var spectralIndices = {
             'formula': '((S1 + R) - (N + B))/((S1 + R) + (N + B))',
             'long_name': 'Bare Soil Index',
             'platforms': ['Sentinel-2', 'Landsat-OLI', 'Landsat-TM', 'Landsat-ETM+', 'MODIS'],
-            'reference': 'http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.465.8749&rep=rep1&application_domain=pdf',
+            'reference': 'http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.465.8749&rep=rep1&type=pdf',
             'short_name': 'BI'
         },
         'BLFEI': {
@@ -1730,7 +1730,7 @@ var spectralIndices = {
             'formula': '((1.0 - B) * (1.0 - G) * (1.0 - R)) ** (1/3)',
             'long_name': 'Shadow Index',
             'platforms': ['Sentinel-2', 'Landsat-OLI', 'Landsat-TM', 'Landsat-ETM+', 'MODIS', 'Planet-Fusion'],
-            'reference': 'http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.465.8749&rep=rep1&application_domain=pdf',
+            'reference': 'http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.465.8749&rep=rep1&type=pdf',
             'short_name': 'SI'
         },
         'SIPI': {
