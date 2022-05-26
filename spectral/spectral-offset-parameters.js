@@ -3229,8 +3229,7 @@ var offsetParams = {
         'B6_VCID_1': 0.0,
         'B6_VCID_2': 0.0,
         'B7': 0.0,
-        'B8': 0.0,
-        'BQA': 0.0
+        'B8': 0.0
     },
     'LANDSAT/LE7_L1T_8DAY_BAI': {
         'BAI': 0.0
@@ -3271,8 +3270,7 @@ var offsetParams = {
         'B6_VCID_1': 0.0,
         'B6_VCID_2': 0.0,
         'B7': 0.0,
-        'B8': 0.0,
-        'BQA': 0.0
+        'B8': 0.0
     },
     'LANDSAT/LE7_L1T_ANNUAL_BAI': {
         'BAI': 0.0
@@ -3313,8 +3311,7 @@ var offsetParams = {
         'B6_VCID_1': 0.0,
         'B6_VCID_2': 0.0,
         'B7': 0.0,
-        'B8': 0.0,
-        'BQA': 0.0
+        'B8': 0.0
     },
     'LANDSAT/LE7_L1T_TOA': {
         'B1': 0.0,
@@ -3325,8 +3322,7 @@ var offsetParams = {
         'B6_VCID_1': 0.0,
         'B6_VCID_2': 0.0,
         'B7': 0.0,
-        'B8': 0.0,
-        'BQA': 0.0
+        'B8': 0.0
     },
     'LANDSAT/LE7_TOA_1YEAR': {
         'B1': 0.0,
@@ -3998,8 +3994,7 @@ var offsetParams = {
         'B4': 0.0,
         'B5': 0.0,
         'B6': 0.0,
-        'B7': 0.0,
-        'BQA': 0.0
+        'B7': 0.0
     },
     'LANDSAT/LT05/C02/T2': {
         'B1': 0.0,
@@ -4044,8 +4039,7 @@ var offsetParams = {
         'B4': 0.0,
         'B5': 0.0,
         'B6': 0.0,
-        'B7': 0.0,
-        'BQA': 0.0
+        'B7': 0.0
     },
     'LANDSAT/LT08/C01/T2': {
         'B1': 0.0,
@@ -4112,8 +4106,7 @@ var offsetParams = {
         'B4': 0.0,
         'B5': 0.0,
         'B6': 0.0,
-        'B7': 0.0,
-        'BQA': 0.0
+        'B7': 0.0
     },
     'LANDSAT/LT4_L1T_8DAY_BAI': {
         'BAI': 0.0
@@ -4150,8 +4143,7 @@ var offsetParams = {
         'B4': 0.0,
         'B5': 0.0,
         'B6': 0.0,
-        'B7': 0.0,
-        'BQA': 0.0
+        'B7': 0.0
     },
     'LANDSAT/LT4_L1T_ANNUAL_BAI': {
         'BAI': 0.0
@@ -4167,7 +4159,6 @@ var offsetParams = {
         'B5': 0.0,
         'B6': 0.0,
         'B7': 0.0,
-        'BQA': 0.0,
         'greenness': 0.0
     },
     'LANDSAT/LT4_L1T_ANNUAL_NBRT': {
@@ -4199,8 +4190,7 @@ var offsetParams = {
         'B4': 0.0,
         'B5': 0.0,
         'B6': 0.0,
-        'B7': 0.0,
-        'BQA': 0.0
+        'B7': 0.0
     },
     'LANDSAT/LT4_L1T_TOA': {
         'B1': 0.0,
@@ -4209,8 +4199,7 @@ var offsetParams = {
         'B4': 0.0,
         'B5': 0.0,
         'B6': 0.0,
-        'B7': 0.0,
-        'BQA': 0.0
+        'B7': 0.0
     },
     'LANDSAT/LT5': {
         'B1': 0.0,
@@ -4267,8 +4256,7 @@ var offsetParams = {
         'B4': 0.0,
         'B5': 0.0,
         'B6': 0.0,
-        'B7': 0.0,
-        'BQA': 0.0
+        'B7': 0.0
     },
     'LANDSAT/LT5_L1T_8DAY_BAI': {
         'BAI': 0.0
@@ -4305,8 +4293,7 @@ var offsetParams = {
         'B4': 0.0,
         'B5': 0.0,
         'B6': 0.0,
-        'B7': 0.0,
-        'BQA': 0.0
+        'B7': 0.0
     },
     'LANDSAT/LT5_L1T_ANNUAL_BAI': {
         'BAI': 0.0
@@ -4322,7 +4309,6 @@ var offsetParams = {
         'B5': 0.0,
         'B6': 0.0,
         'B7': 0.0,
-        'BQA': 0.0,
         'greenness': 0.0
     },
     'LANDSAT/LT5_L1T_ANNUAL_NBRT': {
@@ -4354,8 +4340,7 @@ var offsetParams = {
         'B4': 0.0,
         'B5': 0.0,
         'B6': 0.0,
-        'B7': 0.0,
-        'BQA': 0.0
+        'B7': 0.0
     },
     'LANDSAT/LT5_L1T_TOA': {
         'B1': 0.0,
@@ -4364,8 +4349,7 @@ var offsetParams = {
         'B4': 0.0,
         'B5': 0.0,
         'B6': 0.0,
-        'B7': 0.0,
-        'BQA': 0.0
+        'B7': 0.0
     },
     'LANDSAT/MANGROVE_FORESTS': {
         '1': 0.0
