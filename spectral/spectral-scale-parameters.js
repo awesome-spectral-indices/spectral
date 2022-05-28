@@ -744,6 +744,9 @@ var scaleParams = {
     'DLR/WSF/WSF2015/v1': {
         'settlement': 1.0
     },
+    'DOE/ORNL/LandScan_HD/Ukraine_202201': {
+        'population': 1.0
+    },
     'ECMWF/CAMS/NRT': {
         'black_carbon_aerosol_optical_depth_at_550nm_surface': 1.0,
         'dust_aerosol_optical_depth_at_550nm_surface': 1.0,
@@ -1912,6 +1915,16 @@ var scaleParams = {
         'hourlyPrecipRateGC': 1.0,
         'observationTimeFlag': 1.0,
         'satelliteInfoFlag': 1.0
+    },
+    'JCU/Murray/GIC/global_tidal_wetland_change/2019': {
+        'gain': 1.0,
+        'gainType': 1.0,
+        'gainYear': 1.0,
+        'loss': 1.0,
+        'lossType': 1.0,
+        'lossYear': 1.0,
+        'twprobabilityEnd': 1.0,
+        'twprobabilityStart': 1.0
     },
     'JRC/GHSL/P2016/BUILT_LDSMT_GLOBE_V1': {
         'built': 1.0,
@@ -3994,7 +4007,13 @@ var scaleParams = {
         'B4': 1.0,
         'B5': 1.0,
         'B6': 1.0,
-        'B7': 1.0
+        'B7': 1.0,
+        'QA_PIXEL': 1.0,
+        'QA_RADSAT': 1.0,
+        'SAA': 1.0,
+        'SZA': 1.0,
+        'VAA': 1.0,
+        'VZA': 1.0
     },
     'LANDSAT/LT05/C02/T2': {
         'B1': 1.0,
@@ -4039,7 +4058,13 @@ var scaleParams = {
         'B4': 1.0,
         'B5': 1.0,
         'B6': 1.0,
-        'B7': 1.0
+        'B7': 1.0,
+        'QA_PIXEL': 1.0,
+        'QA_RADSAT': 1.0,
+        'SAA': 1.0,
+        'SZA': 1.0,
+        'VAA': 1.0,
+        'VZA': 1.0
     },
     'LANDSAT/LT08/C01/T2': {
         'B1': 1.0,
