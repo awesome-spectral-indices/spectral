@@ -1285,6 +1285,18 @@ var offsetParams = {
         'flooded': 0.0,
         'jrc_perm_water': 0.0
     },
+    'GOOGLE/DYNAMICWORLD/V1': {
+        'bare': 0.0,
+        'built': 0.0,
+        'crops': 0.0,
+        'flooded_vegetation': 0.0,
+        'grass': 0.0,
+        'label': 0.0,
+        'shrub_and_scrub': 0.0,
+        'snow_and_ice': 0.0,
+        'trees': 0.0,
+        'water': 0.0
+    },
     'GRIDMET/DROUGHT': {
         'eddi14d': 0.0,
         'eddi180d': 0.0,
