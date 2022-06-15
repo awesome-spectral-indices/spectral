@@ -3750,6 +3750,21 @@ var offsetParams = {
         'B7': 0.0,
         'BQA': 0.0
     },
+    'LANDSAT/LT04/C02/T1': {
+        'B1': 0.0,
+        'B2': 0.0,
+        'B3': 0.0,
+        'B4': 0.0,
+        'B5': 0.0,
+        'B6': 0.0,
+        'B7': 0.0,
+        'QA_PIXEL': 0.0,
+        'QA_RADSAT': 0.0,
+        'SAA': 0.0,
+        'SZA': 0.0,
+        'VAA': 0.0,
+        'VZA': 0.0
+    },
     'LANDSAT/LT04/C02/T1_L2': {
         'QA_PIXEL': 0.0,
         'QA_RADSAT': 0.0,
@@ -3771,6 +3786,36 @@ var offsetParams = {
         'ST_TRAD': 0.0,
         'ST_URAD': 0.0
     },
+    'LANDSAT/LT04/C02/T1_TOA': {
+        'B1': 0.0,
+        'B2': 0.0,
+        'B3': 0.0,
+        'B4': 0.0,
+        'B5': 0.0,
+        'B6': 0.0,
+        'B7': 0.0,
+        'QA_PIXEL': 0.0,
+        'QA_RADSAT': 0.0,
+        'SAA': 0.0,
+        'SZA': 0.0,
+        'VAA': 0.0,
+        'VZA': 0.0
+    },
+    'LANDSAT/LT04/C02/T2': {
+        'B1': 0.0,
+        'B2': 0.0,
+        'B3': 0.0,
+        'B4': 0.0,
+        'B5': 0.0,
+        'B6': 0.0,
+        'B7': 0.0,
+        'QA_PIXEL': 0.0,
+        'QA_RADSAT': 0.0,
+        'SAA': 0.0,
+        'SZA': 0.0,
+        'VAA': 0.0,
+        'VZA': 0.0
+    },
     'LANDSAT/LT04/C02/T2_L2': {
         'QA_PIXEL': 0.0,
         'QA_RADSAT': 0.0,
@@ -3791,6 +3836,21 @@ var offsetParams = {
         'ST_QA': 0.0,
         'ST_TRAD': 0.0,
         'ST_URAD': 0.0
+    },
+    'LANDSAT/LT04/C02/T2_TOA': {
+        'B1': 0.0,
+        'B2': 0.0,
+        'B3': 0.0,
+        'B4': 0.0,
+        'B5': 0.0,
+        'B6': 0.0,
+        'B7': 0.0,
+        'QA_PIXEL': 0.0,
+        'QA_RADSAT': 0.0,
+        'SAA': 0.0,
+        'SZA': 0.0,
+        'VAA': 0.0,
+        'VZA': 0.0
     },
     'LANDSAT/LT05/C01/T1': {
         'B1': 0.0,
