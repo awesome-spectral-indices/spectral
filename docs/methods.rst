@@ -138,14 +138,14 @@ Computing the polynomial kernel:
    
    var L8 = spectral.computeIndex(L8, "kNDVI", parameters);
 
-spectral.defaultParameters
+spectral.bands
 ----------------------------
 
-.. js:attribute:: spectral.defaultParameters
+.. js:attribute:: spectral.bands
 
-   Returns the default values for the additional parameters.
+   Returns the dictionary of bands in the Awesome Spectral Indices standard.
 
-   :returns: Dictionary of default values.
+   :returns: Dictionary of bands.
    
 **Examples**
 
@@ -153,15 +153,15 @@ spectral.defaultParameters
 
    var spectral = require("users/dmlmont/spectral:spectral");
    
-   print(spectral.defaultParameters);
-   print(spectral.defaultParameters.p);
+   print(spectral.bands);
+   print(spectral.bands.N);
    
-spectral.describeParameters
+spectral.constants
 ----------------------------
 
 .. js:attribute:: spectral.describeParameters
 
-   Returns the description of all parameters.
+   Returns the dictionary of constants (or parameters) in the Awesome Spectral Indices standard.
 
    :returns: Dictionary of parameters and their description.
    
@@ -171,9 +171,9 @@ spectral.describeParameters
 
    var spectral = require("users/dmlmont/spectral:spectral");
    
-   print(spectral.describeParameters);
-   print(spectral.describeParameters.Bands);
-   print(spectral.describeParameters.Bands.N);
+   print(spectral.constants);
+   print(spectral.constants.L);
+   print(spectral.constants.L.default);
 
 spectral.indices
 ------------------------

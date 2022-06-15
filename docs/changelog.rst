@@ -1,6 +1,26 @@
 Changelog
 ============
 
+v0.1.0
+------ 
+
+New Features
+~~~~~~~~~~~~
+
+- The :code:`constants` attribute was added and replaces :code:`defaultParameters` and :code:`describeParameters`.
+- The :code:`bands` attribute was added and replaces :code:`defaultParameters` and :code:`describeParameters`.
+
+Deprecation
+~~~~~~~~~~~
+
+- :code:`defaultParameters` was deprecated.
+- :code:`describeParameters` was deprecated.
+
+Improvements
+~~~~~~~~~~~~
+
+- The `Awesome Spectral Indices <https://github.com/awesome-spectral-indices/awesome-spectral-indices>`_ list was upgraded to v0.1.0.
+
 v0.0.5
 ------
 
