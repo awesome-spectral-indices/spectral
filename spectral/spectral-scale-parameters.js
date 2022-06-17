@@ -3397,6 +3397,22 @@ var scaleParams = {
         'B7': 1.0,
         'BQA': 1.0
     },
+    'LANDSAT/LM01/C02/T1': {
+        'B4': 1.0,
+        'B5': 1.0,
+        'B6': 1.0,
+        'B7': 1.0,
+        'QA_PIXEL': 1.0,
+        'QA_RADSAT': 1.0
+    },
+    'LANDSAT/LM01/C02/T2': {
+        'B4': 1.0,
+        'B5': 1.0,
+        'B6': 1.0,
+        'B7': 1.0,
+        'QA_PIXEL': 1.0,
+        'QA_RADSAT': 1.0
+    },
     'LANDSAT/LM02/C01/T1': {
         'B4': 1.0,
         'B5': 1.0,
@@ -3410,6 +3426,22 @@ var scaleParams = {
         'B6': 1.0,
         'B7': 1.0,
         'BQA': 1.0
+    },
+    'LANDSAT/LM02/C02/T1': {
+        'B4': 1.0,
+        'B5': 1.0,
+        'B6': 1.0,
+        'B7': 1.0,
+        'QA_PIXEL': 1.0,
+        'QA_RADSAT': 1.0
+    },
+    'LANDSAT/LM02/C02/T2': {
+        'B4': 1.0,
+        'B5': 1.0,
+        'B6': 1.0,
+        'B7': 1.0,
+        'QA_PIXEL': 1.0,
+        'QA_RADSAT': 1.0
     },
     'LANDSAT/LM03/C01/T1': {
         'B4': 1.0,
@@ -3425,6 +3457,22 @@ var scaleParams = {
         'B7': 1.0,
         'BQA': 1.0
     },
+    'LANDSAT/LM03/C02/T1': {
+        'B4': 1.0,
+        'B5': 1.0,
+        'B6': 1.0,
+        'B7': 1.0,
+        'QA_PIXEL': 1.0,
+        'QA_RADSAT': 1.0
+    },
+    'LANDSAT/LM03/C02/T2': {
+        'B4': 1.0,
+        'B5': 1.0,
+        'B6': 1.0,
+        'B7': 1.0,
+        'QA_PIXEL': 1.0,
+        'QA_RADSAT': 1.0
+    },
     'LANDSAT/LM04/C01/T1': {
         'B1': 1.0,
         'B2': 1.0,
@@ -3439,6 +3487,22 @@ var scaleParams = {
         'B4': 1.0,
         'BQA': 1.0
     },
+    'LANDSAT/LM04/C02/T1': {
+        'B1': 1.0,
+        'B2': 1.0,
+        'B3': 1.0,
+        'B4': 1.0,
+        'QA_PIXEL': 1.0,
+        'QA_RADSAT': 1.0
+    },
+    'LANDSAT/LM04/C02/T2': {
+        'B1': 1.0,
+        'B2': 1.0,
+        'B3': 1.0,
+        'B4': 1.0,
+        'QA_PIXEL': 1.0,
+        'QA_RADSAT': 1.0
+    },
     'LANDSAT/LM05/C01/T1': {
         'B1': 1.0,
         'B2': 1.0,
@@ -3452,6 +3516,14 @@ var scaleParams = {
         'B3': 1.0,
         'B4': 1.0,
         'BQA': 1.0
+    },
+    'LANDSAT/LM05/C02/T1': {
+        'B1': 1.0,
+        'B2': 1.0,
+        'B3': 1.0,
+        'B4': 1.0,
+        'QA_PIXEL': 1.0,
+        'QA_RADSAT': 1.0
     },
     'LANDSAT/LM1': {
         'B4': 1.0,

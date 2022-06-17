@@ -3397,6 +3397,22 @@ var offsetParams = {
         'B7': 0.0,
         'BQA': 0.0
     },
+    'LANDSAT/LM01/C02/T1': {
+        'B4': 0.0,
+        'B5': 0.0,
+        'B6': 0.0,
+        'B7': 0.0,
+        'QA_PIXEL': 0.0,
+        'QA_RADSAT': 0.0
+    },
+    'LANDSAT/LM01/C02/T2': {
+        'B4': 0.0,
+        'B5': 0.0,
+        'B6': 0.0,
+        'B7': 0.0,
+        'QA_PIXEL': 0.0,
+        'QA_RADSAT': 0.0
+    },
     'LANDSAT/LM02/C01/T1': {
         'B4': 0.0,
         'B5': 0.0,
@@ -3410,6 +3426,22 @@ var offsetParams = {
         'B6': 0.0,
         'B7': 0.0,
         'BQA': 0.0
+    },
+    'LANDSAT/LM02/C02/T1': {
+        'B4': 0.0,
+        'B5': 0.0,
+        'B6': 0.0,
+        'B7': 0.0,
+        'QA_PIXEL': 0.0,
+        'QA_RADSAT': 0.0
+    },
+    'LANDSAT/LM02/C02/T2': {
+        'B4': 0.0,
+        'B5': 0.0,
+        'B6': 0.0,
+        'B7': 0.0,
+        'QA_PIXEL': 0.0,
+        'QA_RADSAT': 0.0
     },
     'LANDSAT/LM03/C01/T1': {
         'B4': 0.0,
@@ -3425,6 +3457,22 @@ var offsetParams = {
         'B7': 0.0,
         'BQA': 0.0
     },
+    'LANDSAT/LM03/C02/T1': {
+        'B4': 0.0,
+        'B5': 0.0,
+        'B6': 0.0,
+        'B7': 0.0,
+        'QA_PIXEL': 0.0,
+        'QA_RADSAT': 0.0
+    },
+    'LANDSAT/LM03/C02/T2': {
+        'B4': 0.0,
+        'B5': 0.0,
+        'B6': 0.0,
+        'B7': 0.0,
+        'QA_PIXEL': 0.0,
+        'QA_RADSAT': 0.0
+    },
     'LANDSAT/LM04/C01/T1': {
         'B1': 0.0,
         'B2': 0.0,
@@ -3439,6 +3487,22 @@ var offsetParams = {
         'B4': 0.0,
         'BQA': 0.0
     },
+    'LANDSAT/LM04/C02/T1': {
+        'B1': 0.0,
+        'B2': 0.0,
+        'B3': 0.0,
+        'B4': 0.0,
+        'QA_PIXEL': 0.0,
+        'QA_RADSAT': 0.0
+    },
+    'LANDSAT/LM04/C02/T2': {
+        'B1': 0.0,
+        'B2': 0.0,
+        'B3': 0.0,
+        'B4': 0.0,
+        'QA_PIXEL': 0.0,
+        'QA_RADSAT': 0.0
+    },
     'LANDSAT/LM05/C01/T1': {
         'B1': 0.0,
         'B2': 0.0,
@@ -3452,6 +3516,14 @@ var offsetParams = {
         'B3': 0.0,
         'B4': 0.0,
         'BQA': 0.0
+    },
+    'LANDSAT/LM05/C02/T1': {
+        'B1': 0.0,
+        'B2': 0.0,
+        'B3': 0.0,
+        'B4': 0.0,
+        'QA_PIXEL': 0.0,
+        'QA_RADSAT': 0.0
     },
     'LANDSAT/LM1': {
         'B4': 0.0,
