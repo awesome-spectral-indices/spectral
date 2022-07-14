@@ -3525,6 +3525,14 @@ var scaleParams = {
         'QA_PIXEL': 1.0,
         'QA_RADSAT': 1.0
     },
+    'LANDSAT/LM05/C02/T2': {
+        'B1': 1.0,
+        'B2': 1.0,
+        'B3': 1.0,
+        'B4': 1.0,
+        'QA_PIXEL': 1.0,
+        'QA_RADSAT': 1.0
+    },
     'LANDSAT/LM1': {
         'B4': 1.0,
         'B5': 1.0,
@@ -6864,6 +6872,9 @@ var scaleParams = {
         'QA_Bits': 1.0
     },
     'USGS/3DEP/10m': {
+        'elevation': 1.0
+    },
+    'USGS/3DEP/1m': {
         'elevation': 1.0
     },
     'USGS/GAP/AK/2001': {

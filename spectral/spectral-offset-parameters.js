@@ -3525,6 +3525,14 @@ var offsetParams = {
         'QA_PIXEL': 0.0,
         'QA_RADSAT': 0.0
     },
+    'LANDSAT/LM05/C02/T2': {
+        'B1': 0.0,
+        'B2': 0.0,
+        'B3': 0.0,
+        'B4': 0.0,
+        'QA_PIXEL': 0.0,
+        'QA_RADSAT': 0.0
+    },
     'LANDSAT/LM1': {
         'B4': 0.0,
         'B5': 0.0,
@@ -6864,6 +6872,9 @@ var offsetParams = {
         'QA_Bits': 0.0
     },
     'USGS/3DEP/10m': {
+        'elevation': 0.0
+    },
+    'USGS/3DEP/1m': {
         'elevation': 0.0
     },
     'USGS/GAP/AK/2001': {
