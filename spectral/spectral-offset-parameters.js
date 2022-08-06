@@ -423,6 +423,8 @@ var offsetParams = {
     },
     'COPERNICUS/S5P/OFFL/L3_CH4': {
         'CH4_column_volume_mixing_ratio_dry_air': 0.0,
+        'CH4_column_volume_mixing_ratio_dry_air_bias_corrected': 0.0,
+        'CH4_column_volume_mixing_ratio_dry_air_uncertainty': 0.0,
         'aerosol_height': 0.0,
         'aerosol_optical_depth': 0.0,
         'sensor_azimuth_angle': 0.0,
