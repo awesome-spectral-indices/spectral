@@ -5573,6 +5573,12 @@ var scaleParams = {
         'sur_refl_b03': 0.0001,
         'sur_refl_b07': 0.0001
     },
+    'MODIS/061/MOD14A1': {
+        'FireMask': 1.0,
+        'MaxFRP': 0.1,
+        'QA': 1.0,
+        'sample': 1.0
+    },
     'MODIS/061/MOD14A2': {
         'FireMask': 1.0,
         'QA': 1.0
@@ -5721,6 +5727,12 @@ var scaleParams = {
         'sur_refl_b02': 0.0001,
         'sur_refl_b03': 0.0001,
         'sur_refl_b07': 0.0001
+    },
+    'MODIS/061/MYD14A1': {
+        'FireMask': 1.0,
+        'MaxFRP': 0.1,
+        'QA': 1.0,
+        'sample': 1.0
     },
     'MODIS/061/MYD14A2': {
         'FireMask': 1.0,
