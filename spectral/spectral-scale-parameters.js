@@ -83,6 +83,9 @@ var scaleParams = {
     'BIOPAMA/GlobalOilPalm/v1': {
         'classification': 1.0
     },
+    'BNU/FGS/CCNL/v1': {
+        'b1': 1.0
+    },
     'CAS/IGSNRR/PML/V2': {
         'ET_water': 1.0,
         'Ec': 1.0,
