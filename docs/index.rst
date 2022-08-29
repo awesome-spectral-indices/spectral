@@ -21,7 +21,7 @@ Welcome to Spectral!
         :target: https://ee-spectral.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
 
-.. image:: https://img.shields.io/badge/FOSS4G%20Paper-10.5194%2Fisprs%2Darchives%2DXLVIII%2D4%2DW1%2D2022%2D301%2D2022-success.svg
+.. image:: https://img.shields.io/badge/Paper-10.5194%2Fisprs--archives--XLVIII--4--W1--2022--301--2022-brightgreen
         :target: https://doi.org/10.5194/isprs-archives-XLVIII-4-W1-2022-301-2022
 
 .. image:: https://zenodo.org/badge/367967462.svg
