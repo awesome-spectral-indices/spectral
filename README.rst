@@ -164,3 +164,30 @@ License
 -------
 
 The project is licensed under the MIT license.
+
+How to cite
+-----------
+
+Do you like using :code:`spectral` and think it is useful? Share the love by citing it!
+
+.. code-block::
+
+   Montero, D., Aybar, C., Mahecha, M. D., Wieneke, S. (2022). spectral: Awesome Spectral Indices deployed
+   via the Google Earth Engine JavaScript API. The International Archives of the Photogrammetry, Remote Sensing 
+   and Spatial Information Sciences, Volume XLVIII-4/W1-2022. Free and Open Source Software for Geospatial 
+   (FOSS4G) 2022 Academic Track, 22-28 August 2022, Florence, Italy. doi: 10.5194/isprs-archives-XLVIII-4-W1-2022-301-2022
+
+If required, here is the BibTex!
+
+.. code-block::
+
+   @article{Montero2022,
+      doi = {10.5194/isprs-archives-XLVIII-4-W1-2022-301-2022},
+      url = {https://doi.org/10.5194/isprs-archives-XLVIII-4-W1-2022-301-2022},
+      year = {2022},
+      volume = {XLVIII-4/W1-2022},
+      pages = {301-306},
+      author = {David Montero, Cesar Aybar, Miguel D. Mahecha, Sebastian Wieneke},
+      title = {spectral: Awesome Spectral Indices deployed via the Google Earth Engine JavaScript API},
+      journal = {The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences}
+   }
