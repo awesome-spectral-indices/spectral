@@ -78,6 +78,11 @@ var constants = {
         'description': 'Exponent used for OCVI',
         'short_name': 'cexp'
     },
+    'fdelta': {
+        'default': 0.581,
+        'description': 'Adjustment factor used for SEVI',
+        'short_name': 'fdelta'
+    },
     'g': {
         'default': 2.5,
         'description': 'Gain factor',
