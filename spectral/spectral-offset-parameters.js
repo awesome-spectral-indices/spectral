@@ -7900,6 +7900,9 @@ var offsetParams = {
         'Land_Use_Raw_Probability_Rangeland-or-Pasture': 0.0,
         'QA_Bits': 0.0
     },
+    'USFS/GTAC/MTBS/annual_burn_severity_mosaics/v1': {
+        'Severity': 0.0
+    },
     'USGS/3DEP/10m': {
         'elevation': 0.0
     },
