@@ -1886,6 +1886,9 @@ var offsetParams = {
     'JAXA/ALOS/PALSAR/YEARLY/FNF': {
         'fnf': 0.0
     },
+    'JAXA/ALOS/PALSAR/YEARLY/FNF4': {
+        'fnf': 0.0
+    },
     'JAXA/ALOS/PALSAR/YEARLY/SAR': {
         'HH': 0.0,
         'HV': 0.0,
