@@ -1883,6 +1883,12 @@ var offsetParams = {
         'MSK': 0.0,
         'STK': 0.0
     },
+    'JAXA/ALOS/PALSAR-2/Level2_2/ScanSAR': {
+        'HH': 0.0,
+        'HV': 0.0,
+        'LIN': 0.0,
+        'MSK': 0.0
+    },
     'JAXA/ALOS/PALSAR/YEARLY/FNF': {
         'fnf': 0.0
     },

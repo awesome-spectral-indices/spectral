@@ -1883,6 +1883,12 @@ var scaleParams = {
         'MSK': 1.0,
         'STK': 1.0
     },
+    'JAXA/ALOS/PALSAR-2/Level2_2/ScanSAR': {
+        'HH': 1.0,
+        'HV': 1.0,
+        'LIN': 0.01,
+        'MSK': 1.0
+    },
     'JAXA/ALOS/PALSAR/YEARLY/FNF': {
         'fnf': 1.0
     },
