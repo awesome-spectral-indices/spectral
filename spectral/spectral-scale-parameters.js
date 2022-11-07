@@ -1220,6 +1220,9 @@ var scaleParams = {
     'ESA/WorldCover/v100': {
         'Map': 1.0
     },
+    'ESA/WorldCover/v200': {
+        'Map': 1.0
+    },
     'FAO/GHG/1/DROSA_A': {
         'cropland': 1.0,
         'grassland': 1.0

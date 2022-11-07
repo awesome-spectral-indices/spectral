@@ -1220,6 +1220,9 @@ var offsetParams = {
     'ESA/WorldCover/v100': {
         'Map': 0.0
     },
+    'ESA/WorldCover/v200': {
+        'Map': 0.0
+    },
     'FAO/GHG/1/DROSA_A': {
         'cropland': 0.0,
         'grassland': 0.0
