@@ -194,7 +194,7 @@ var spectralIndices = {
             'short_name': 'BCC'
         },
         'BI': {
-            'application_domain': 'urban',
+            'application_domain': 'soil',
             'bands': ['S1', 'R', 'N', 'B'],
             'contributor': 'https://github.com/davemlz',
             'date_of_addition': '2022-04-08',
@@ -203,6 +203,28 @@ var spectralIndices = {
             'platforms': ['Sentinel-2', 'Landsat-OLI', 'Landsat-TM', 'Landsat-ETM+', 'MODIS'],
             'reference': 'http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.465.8749&rep=rep1&type=pdf',
             'short_name': 'BI'
+        },
+        'BITM': {
+            'application_domain': 'soil',
+            'bands': ['B', 'G', 'R'],
+            'contributor': 'https://github.com/davemlz',
+            'date_of_addition': '2022-11-20',
+            'formula': '(((B**2.0)+(G**2.0)+(R**2.0))/3.0)**0.5',
+            'long_name': 'Landsat TM-based Brightness Index',
+            'platforms': ['Sentinel-2', 'Landsat-OLI', 'Landsat-TM', 'Landsat-ETM+', 'MODIS', 'Planet-Fusion'],
+            'reference': 'https://doi.org/10.1016/S0034-4257(98)00030-3',
+            'short_name': 'BITM'
+        },
+        'BIXS': {
+            'application_domain': 'soil',
+            'bands': ['G', 'R'],
+            'contributor': 'https://github.com/remi-braun',
+            'date_of_addition': '2022-11-20',
+            'formula': '(((G**2.0)+(R**2.0))/2.0)**0.5',
+            'long_name': 'SPOT HRV XS-based Brightness Index',
+            'platforms': ['Sentinel-2', 'Landsat-OLI', 'Landsat-TM', 'Landsat-ETM+', 'MODIS', 'Planet-Fusion'],
+            'reference': 'https://doi.org/10.1016/S0034-4257(98)00030-3',
+            'short_name': 'BIXS'
         },
         'BLFEI': {
             'application_domain': 'urban',
@@ -249,7 +271,7 @@ var spectralIndices = {
             'short_name': 'BWDRVI'
         },
         'BaI': {
-            'application_domain': 'urban',
+            'application_domain': 'soil',
             'bands': ['R', 'S1', 'N'],
             'contributor': 'https://github.com/davemlz',
             'date_of_addition': '2022-04-18',
@@ -326,7 +348,7 @@ var spectralIndices = {
             'short_name': 'DBI'
         },
         'DBSI': {
-            'application_domain': 'urban',
+            'application_domain': 'soil',
             'bands': ['S1', 'G', 'N', 'R'],
             'contributor': 'https://github.com/davemlz',
             'date_of_addition': '2022-04-18',
@@ -469,7 +491,7 @@ var spectralIndices = {
             'short_name': 'EBBI'
         },
         'EMBI': {
-            'application_domain': 'urban',
+            'application_domain': 'soil',
             'bands': ['S1', 'S2', 'N', 'G'],
             'contributor': 'https://github.com/davemlz',
             'date_of_addition': '2022-04-18',
@@ -766,7 +788,7 @@ var spectralIndices = {
             'short_name': 'LSWI'
         },
         'MBI': {
-            'application_domain': 'urban',
+            'application_domain': 'soil',
             'bands': ['S1', 'S2', 'N'],
             'contributor': 'https://github.com/davemlz',
             'date_of_addition': '2022-04-18',
@@ -1041,7 +1063,7 @@ var spectralIndices = {
             'short_name': 'NBAI'
         },
         'NBLI': {
-            'application_domain': 'urban',
+            'application_domain': 'soil',
             'bands': ['R', 'T1'],
             'contributor': 'https://github.com/davemlz',
             'date_of_addition': '2022-04-18',
@@ -1173,7 +1195,7 @@ var spectralIndices = {
             'short_name': 'NDBI'
         },
         'NDBaI': {
-            'application_domain': 'urban',
+            'application_domain': 'soil',
             'bands': ['S1', 'T1'],
             'contributor': 'https://github.com/davemlz',
             'date_of_addition': '2021-09-17',
@@ -1370,6 +1392,17 @@ var spectralIndices = {
             'reference': 'https://doi.org/10.1080/01431160802385459',
             'short_name': 'NDSII'
         },
+        'NDSIWV': {
+            'application_domain': 'soil',
+            'bands': ['G', 'Y'],
+            'contributor': 'https://github.com/remi-braun',
+            'date_of_addition': '2022-11-20',
+            'formula': '(G - Y)/(G + Y)',
+            'long_name': 'WorldView Normalized Difference Soil Index',
+            'platforms': ['Sentinel-2', 'Landsat-OLI', 'Landsat-TM', 'Landsat-ETM+', 'MODIS', 'Planet-Fusion'],
+            'reference': 'https://www.semanticscholar.org/paper/Using-WorldView-2-Vis-NIR-MSI-Imagery-to-Support-Wolf/5e5063ccc4ee76b56b721c866e871d47a77f9fb4',
+            'short_name': 'NDSIWV'
+        },
         'NDSInw': {
             'application_domain': 'snow',
             'bands': ['N', 'S1', 'beta'],
@@ -1404,7 +1437,7 @@ var spectralIndices = {
             'short_name': 'NDSaII'
         },
         'NDSoI': {
-            'application_domain': 'urban',
+            'application_domain': 'soil',
             'bands': ['S2', 'G'],
             'contributor': 'https://github.com/davemlz',
             'date_of_addition': '2022-04-18',
@@ -1602,7 +1635,7 @@ var spectralIndices = {
             'short_name': 'NRFIr'
         },
         'NSDS': {
-            'application_domain': 'urban',
+            'application_domain': 'soil',
             'bands': ['S1', 'S2'],
             'contributor': 'https://github.com/davemlz',
             'date_of_addition': '2022-04-18',
@@ -1613,7 +1646,7 @@ var spectralIndices = {
             'short_name': 'NSDS'
         },
         'NSDSI1': {
-            'application_domain': 'water',
+            'application_domain': 'soil',
             'bands': ['S1', 'S2'],
             'contributor': 'https://github.com/CvenGeo',
             'date_of_addition': '2022-10-03',
@@ -1624,7 +1657,7 @@ var spectralIndices = {
             'short_name': 'NSDSI1'
         },
         'NSDSI2': {
-            'application_domain': 'water',
+            'application_domain': 'soil',
             'bands': ['S1', 'S2'],
             'contributor': 'https://github.com/CvenGeo',
             'date_of_addition': '2022-10-03',
@@ -1635,7 +1668,7 @@ var spectralIndices = {
             'short_name': 'NSDSI2'
         },
         'NSDSI3': {
-            'application_domain': 'water',
+            'application_domain': 'soil',
             'bands': ['S1', 'S2'],
             'contributor': 'https://github.com/CvenGeo',
             'date_of_addition': '2022-10-03',
@@ -1853,6 +1886,17 @@ var spectralIndices = {
             'platforms': ['Sentinel-2', 'Landsat-OLI', 'Landsat-TM', 'Landsat-ETM+', 'MODIS', 'Planet-Fusion'],
             'reference': 'https://www.documentation.ird.fr/hor/fdi:34390',
             'short_name': 'RI'
+        },
+        'RI4XS': {
+            'application_domain': 'soil',
+            'bands': ['R', 'G'],
+            'contributor': 'https://github.com/davemlz',
+            'date_of_addition': '2022-11-20',
+            'formula': '(R**2.0)/(G**4.0)',
+            'long_name': 'SPOT HRV XS-based Redness Index 4',
+            'platforms': ['Sentinel-2', 'Landsat-OLI', 'Landsat-TM', 'Landsat-ETM+', 'MODIS', 'Planet-Fusion'],
+            'reference': 'https://doi.org/10.1016/S0034-4257(98)00030-3',
+            'short_name': 'RI4XS'
         },
         'RVI': {
             'application_domain': 'vegetation',
