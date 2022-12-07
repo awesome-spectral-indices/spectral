@@ -1,6 +1,16 @@
 Changelog
 ============
 
+v0.3.0
+------ 
+
+Improvements
+~~~~~~~~~~~~
+
+- The `Awesome Spectral Indices <https://github.com/awesome-spectral-indices/awesome-spectral-indices>`_ list was upgraded to v0.3.0.
+- The :code:`Yellow` band was added to :code:`bands`.
+- The :code:`fdelta` parameter was added to :code:`constants`.
+
 v0.2.0
 ------ 
 
