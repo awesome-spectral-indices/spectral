@@ -1358,6 +1358,12 @@ var scaleParams = {
         'spi90d': 1.0,
         'z': 1.0
     },
+    'Germany/Brandenburg/20cm': {
+        'B': 1.0,
+        'G': 1.0,
+        'N': 1.0,
+        'R': 1.0
+    },
     'HYCOM/GLBu0_08/sea_surface_elevation': {
         'surface_elevation': 0.001
     },

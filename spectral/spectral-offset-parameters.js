@@ -1358,6 +1358,12 @@ var offsetParams = {
         'spi90d': 0.0,
         'z': 0.0
     },
+    'Germany/Brandenburg/20cm': {
+        'B': 0.0,
+        'G': 0.0,
+        'N': 0.0,
+        'R': 0.0
+    },
     'HYCOM/GLBu0_08/sea_surface_elevation': {
         'surface_elevation': 0.0
     },
