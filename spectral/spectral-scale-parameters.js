@@ -167,6 +167,13 @@ var scaleParams = {
     'COPERNICUS/CORINE/V20/100m': {
         'landcover': 1.0
     },
+    'COPERNICUS/DEM/GLO30': {
+        'DEM': 1.0,
+        'EDM': 1.0,
+        'FLM': 1.0,
+        'HEM': 1.0,
+        'WBM': 1.0
+    },
     'COPERNICUS/Landcover/100m/Proba-V-C3/Global': {
         'bare-coverfraction': 1.0,
         'change-confidence': 1.0,
