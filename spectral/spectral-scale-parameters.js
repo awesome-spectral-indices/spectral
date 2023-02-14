@@ -8971,7 +8971,8 @@ var scaleParams = {
         'rangeland_non_sagebrush_shrub': 1.0,
         'rangeland_perennial_herbaceous': 1.0,
         'rangeland_sagebrush': 1.0,
-        'rangeland_shrub': 1.0
+        'rangeland_shrub': 1.0,
+        'rangeland_tree': 1.0
     },
     'USGS/SRTMGL1_003': {
         'elevation': 1.0
