@@ -5117,6 +5117,16 @@ var scaleParams = {
         'V1': 1.0,
         'V2': 1.0
     },
+    'Latvia/Maamet/orthos/cir': {
+        'G': 1.0,
+        'N': 1.0,
+        'R': 1.0
+    },
+    'Latvia/Maamet/orthos/rgb': {
+        'B': 1.0,
+        'G': 1.0,
+        'R': 1.0
+    },
     'MERIT/DEM/v1_0_3': {
         'dem': 1.0
     },
