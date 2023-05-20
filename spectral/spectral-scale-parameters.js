@@ -9143,7 +9143,7 @@ var scaleParams = {
         'Change': 1.0,
         'Change_Raw_Probability_Fast-Loss': 1.0,
         'Change_Raw_Probability_Gain': 1.0,
-        'Change_Raw_Probability_Slow-Loss': 1.0,
+        'Change_Raw_Probability_Slow_Loss': 1.0,
         'Land_Cover': 1.0,
         'Land_Cover_Raw_Probability_Barren-and-Grass-Forb-Herb-Mix': 1.0,
         'Land_Cover_Raw_Probability_Barren-and-Shrubs-Mix': 1.0,

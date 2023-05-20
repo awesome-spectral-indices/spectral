@@ -9143,7 +9143,7 @@ var offsetParams = {
         'Change': 0.0,
         'Change_Raw_Probability_Fast-Loss': 0.0,
         'Change_Raw_Probability_Gain': 0.0,
-        'Change_Raw_Probability_Slow-Loss': 0.0,
+        'Change_Raw_Probability_Slow_Loss': 0.0,
         'Land_Cover': 0.0,
         'Land_Cover_Raw_Probability_Barren-and-Grass-Forb-Herb-Mix': 0.0,
         'Land_Cover_Raw_Probability_Barren-and-Shrubs-Mix': 0.0,
