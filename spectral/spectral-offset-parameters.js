@@ -9074,6 +9074,21 @@ var offsetParams = {
         'lossyear': 0.0,
         'treecover2000': 0.0
     },
+    'UMD/hansen/global_forest_change_2022_v1_10': {
+        'datamask': 0.0,
+        'first_b30': 0.0,
+        'first_b40': 0.0,
+        'first_b50': 0.0,
+        'first_b70': 0.0,
+        'gain': 0.0,
+        'last_b30': 0.0,
+        'last_b40': 0.0,
+        'last_b50': 0.0,
+        'last_b70': 0.0,
+        'loss': 0.0,
+        'lossyear': 0.0,
+        'treecover2000': 0.0
+    },
     'UMN/PGC/ArcticDEM/V2/2m': {
         'elevation': 0.0,
         'matchtag': 0.0
