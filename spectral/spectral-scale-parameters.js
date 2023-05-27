@@ -9700,6 +9700,12 @@ var scaleParams = {
         'Daytime': 1.0,
         'Nighttime': 1.0
     },
+    'projects/ngis-cat/assets/DEA/NIDEM': {
+        'nidem': 1.0,
+        'nidem_mask': 1.0,
+        'nidem_uncertainty': 1.0,
+        'nidem_unfiltered': 1.0
+    },
     'projects/planet-nicfi/assets/basemaps/africa': {
         'B': 0.0001,
         'G': 0.0001,
