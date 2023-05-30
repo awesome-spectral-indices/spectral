@@ -9709,19 +9709,19 @@ var offsetParams = {
     'projects/planet-nicfi/assets/basemaps/africa': {
         'B': 0.0,
         'G': 0.0,
-        'NIR': 0.0,
+        'N': 0.0,
         'R': 0.0
     },
     'projects/planet-nicfi/assets/basemaps/americas': {
         'B': 0.0,
         'G': 0.0,
-        'NIR': 0.0,
+        'N': 0.0,
         'R': 0.0
     },
     'projects/planet-nicfi/assets/basemaps/asia': {
         'B': 0.0,
         'G': 0.0,
-        'NIR': 0.0,
+        'N': 0.0,
         'R': 0.0
     }
 };

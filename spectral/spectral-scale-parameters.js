@@ -9709,19 +9709,19 @@ var scaleParams = {
     'projects/planet-nicfi/assets/basemaps/africa': {
         'B': 0.0001,
         'G': 0.0001,
-        'NIR': 0.0001,
+        'N': 0.0001,
         'R': 0.0001
     },
     'projects/planet-nicfi/assets/basemaps/americas': {
         'B': 0.0001,
         'G': 0.0001,
-        'NIR': 0.0001,
+        'N': 0.0001,
         'R': 0.0001
     },
     'projects/planet-nicfi/assets/basemaps/asia': {
         'B': 0.0001,
         'G': 0.0001,
-        'NIR': 0.0001,
+        'N': 0.0001,
         'R': 0.0001
     }
 };
