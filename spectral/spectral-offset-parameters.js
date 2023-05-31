@@ -8602,11 +8602,6 @@ var offsetParams = {
         'vpdmax': 0.0,
         'vpdmin': 0.0
     },
-    'ORTHO/Switzerland/SWISSIMAGE/10cm': {
-        'B': 0.0,
-        'G': 0.0,
-        'R': 0.0
-    },
     'OSU/GIMP/2000_ICE_OCEAN_MASK': {
         'ice_mask': 0.0,
         'ocean_mask': 0.0
@@ -8880,6 +8875,11 @@ var offsetParams = {
         'RSDN_Daily': 0.0
     },
     'Spain/PNOA/PNOA10': {
+        'B': 0.0,
+        'G': 0.0,
+        'R': 0.0
+    },
+    'Switzerland/SWISSIMAGE/orthos/10cm': {
         'B': 0.0,
         'G': 0.0,
         'R': 0.0

@@ -8602,11 +8602,6 @@ var scaleParams = {
         'vpdmax': 1.0,
         'vpdmin': 1.0
     },
-    'ORTHO/Switzerland/SWISSIMAGE/10cm': {
-        'B': 1.0,
-        'G': 1.0,
-        'R': 1.0
-    },
     'OSU/GIMP/2000_ICE_OCEAN_MASK': {
         'ice_mask': 1.0,
         'ocean_mask': 1.0
@@ -8880,6 +8875,11 @@ var scaleParams = {
         'RSDN_Daily': 1.0
     },
     'Spain/PNOA/PNOA10': {
+        'B': 1.0,
+        'G': 1.0,
+        'R': 1.0
+    },
+    'Switzerland/SWISSIMAGE/orthos/10cm': {
         'B': 1.0,
         'G': 1.0,
         'R': 1.0
