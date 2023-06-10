@@ -6421,6 +6421,13 @@ var offsetParams = {
         'LaiStdDev_500m': 0.0,
         'Lai_500m': 0.0
     },
+    'MODIS/061/MOD16A2': {
+        'ET': 0.0,
+        'ET_QC': 0.0,
+        'LE': 0.0,
+        'PET': 0.0,
+        'PLE': 0.0
+    },
     'MODIS/061/MOD17A3HGF': {
         'Gpp': 0.0,
         'Npp': 0.0,
