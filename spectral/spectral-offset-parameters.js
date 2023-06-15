@@ -9471,6 +9471,9 @@ var offsetParams = {
         'rangeland_shrub': 0.0,
         'rangeland_tree': 0.0
     },
+    'USGS/NLCD_RELEASES/2020_REL/NALCMS': {
+        'landcover': 0.0
+    },
     'USGS/SRTMGL1_003': {
         'elevation': 0.0
     },

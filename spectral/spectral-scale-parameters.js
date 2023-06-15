@@ -9471,6 +9471,9 @@ var scaleParams = {
         'rangeland_shrub': 1.0,
         'rangeland_tree': 1.0
     },
+    'USGS/NLCD_RELEASES/2020_REL/NALCMS': {
+        'landcover': 1.0
+    },
     'USGS/SRTMGL1_003': {
         'elevation': 1.0
     },
