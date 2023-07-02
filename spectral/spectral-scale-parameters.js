@@ -8963,6 +8963,11 @@ var scaleParams = {
         'PARdiff_Daily': 1.0,
         'RSDN_Daily': 1.0
     },
+    'Slovakia/orthos/25cm': {
+        'B': 1.0,
+        'G': 1.0,
+        'R': 1.0
+    },
     'Spain/PNOA/PNOA10': {
         'B': 1.0,
         'G': 1.0,

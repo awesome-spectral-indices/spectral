@@ -8963,6 +8963,11 @@ var offsetParams = {
         'PARdiff_Daily': 0.0,
         'RSDN_Daily': 0.0
     },
+    'Slovakia/orthos/25cm': {
+        'B': 0.0,
+        'G': 0.0,
+        'R': 0.0
+    },
     'Spain/PNOA/PNOA10': {
         'B': 0.0,
         'G': 0.0,
