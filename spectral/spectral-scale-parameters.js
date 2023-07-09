@@ -6439,6 +6439,11 @@ var scaleParams = {
         'PET': 0.1,
         'PLE': 10000
     },
+    'MODIS/061/MOD17A2H': {
+        'Gpp': 0.0001,
+        'PsnNet': 0.0001,
+        'Psn_QC': 1.0
+    },
     'MODIS/061/MOD17A3HGF': {
         'Gpp': 0.0001,
         'Npp': 0.0001,
