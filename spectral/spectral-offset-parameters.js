@@ -6721,6 +6721,11 @@ var offsetParams = {
         'LaiStdDev_500m': 0.0,
         'Lai_500m': 0.0
     },
+    'MODIS/061/MYD17A2H': {
+        'Gpp': 0.0,
+        'PsnNet': 0.0,
+        'Psn_QC': 0.0
+    },
     'MODIS/061/MYD17A3HGF': {
         'Gpp': 0.0,
         'Npp': 0.0,
