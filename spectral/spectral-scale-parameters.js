@@ -1583,6 +1583,13 @@ var scaleParams = {
         'landcover': 1.0,
         'qa': 1.0
     },
+    'ESA/WorldCereal/2021/MARKERS/v100': {
+        'classification': 1.0
+    },
+    'ESA/WorldCereal/2021/MODELS/v100': {
+        'classification': 1.0,
+        'confidence': 1.0
+    },
     'ESA/WorldCover/v100': {
         'Map': 1.0
     },

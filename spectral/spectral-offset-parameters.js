@@ -1583,6 +1583,13 @@ var offsetParams = {
         'landcover': 0.0,
         'qa': 0.0
     },
+    'ESA/WorldCereal/2021/MARKERS/v100': {
+        'classification': 0.0
+    },
+    'ESA/WorldCereal/2021/MODELS/v100': {
+        'classification': 0.0,
+        'confidence': 0.0
+    },
     'ESA/WorldCover/v100': {
         'Map': 0.0
     },
