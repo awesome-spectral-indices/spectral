@@ -2403,6 +2403,9 @@ var scaleParams = {
     'JRC/GHSL/P2023A/GHS_POP': {
         'population_count': 1.0
     },
+    'JRC/GHSL/P2023A/GHS_SMOD': {
+        'smod_code': 1.0
+    },
     'JRC/GSW1_0/GlobalSurfaceWater': {
         'change_abs': 1.0,
         'change_norm': 1.0,
