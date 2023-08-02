@@ -9246,9 +9246,6 @@ var offsetParams = {
     'UMN/PGC/REMA/V1_1/8m': {
         'elevation': 0.0
     },
-    'UMT/Climate/IrrMapper_RF/v1_0': {
-        'classification': 0.0
-    },
     'UMT/NTSG/v2/LANDSAT/GPP': {
         'GPP': 0.0,
         'QC': 0.0

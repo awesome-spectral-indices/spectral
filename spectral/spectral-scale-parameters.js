@@ -9246,9 +9246,6 @@ var scaleParams = {
     'UMN/PGC/REMA/V1_1/8m': {
         'elevation': 1.0
     },
-    'UMT/Climate/IrrMapper_RF/v1_0': {
-        'classification': 1.0
-    },
     'UMT/NTSG/v2/LANDSAT/GPP': {
         'GPP': 0.0001,
         'QC': 1.0
