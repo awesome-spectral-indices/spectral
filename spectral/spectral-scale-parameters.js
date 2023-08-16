@@ -2400,6 +2400,9 @@ var scaleParams = {
     'JRC/GHSL/P2016/SMOD_POP_GLOBE_V1': {
         'smod_code': 1.0
     },
+    'JRC/GHSL/P2023A/GHS_BUILT_S': {
+        'built_surface': 1.0
+    },
     'JRC/GHSL/P2023A/GHS_POP': {
         'population_count': 1.0
     },
@@ -9383,6 +9386,9 @@ var scaleParams = {
     },
     'UMN/PGC/REMA/V1_1/8m': {
         'elevation': 1.0
+    },
+    'UMT/Climate/IrrMapper_RF/v1_1': {
+        'classification': 1.0
     },
     'UMT/NTSG/v2/LANDSAT/GPP': {
         'GPP': 0.0001,
