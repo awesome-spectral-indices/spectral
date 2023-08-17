@@ -2400,6 +2400,9 @@ var offsetParams = {
     'JRC/GHSL/P2016/SMOD_POP_GLOBE_V1': {
         'smod_code': 0.0
     },
+    'JRC/GHSL/P2023A/GHS_BUILT_H': {
+        'built_height': 0.0
+    },
     'JRC/GHSL/P2023A/GHS_BUILT_S': {
         'built_surface': 0.0
     },
@@ -8814,6 +8817,11 @@ var offsetParams = {
     },
     'NRCan/CDEM': {
         'elevation': 0.0
+    },
+    'Netherlands/Beeldmateriaal/LUCHTFOTO_RGB': {
+        'B': 0.0,
+        'G': 0.0,
+        'R': 0.0
     },
     'OREGONSTATE/PRISM/AN81d': {
         'ppt': 0.0,
