@@ -2376,6 +2376,10 @@ var offsetParams = {
     'JRC/GHSL/P2023A/GHS_BUILT_S': {
         'built_surface': 0.0
     },
+    'JRC/GHSL/P2023A/GHS_BUILT_V': {
+        'built_volume_nres': 0.0,
+        'built_volume_total': 0.0
+    },
     'JRC/GHSL/P2023A/GHS_POP': {
         'population_count': 0.0
     },
