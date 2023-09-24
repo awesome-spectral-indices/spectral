@@ -128,6 +128,18 @@ var offsetParams = {
     'CIESIN/GPWv4/unwpp-adjusted-population-density': {
         'population-density': 0.0
     },
+    'CIESIN/GPWv411/GPW_Population_Count': {
+        'population_count': 0.0
+    },
+    'CIESIN/GPWv411/GPW_Population_Density': {
+        'population_density': 0.0
+    },
+    'CIESIN/GPWv411/GPW_UNWPP-Adjusted_Population_Count': {
+        'unwpp-adjusted_population_count': 0.0
+    },
+    'CIESIN/GPWv411/GPW_UNWPP-Adjusted_Population_Density': {
+        'unwpp-adjusted_population_density': 0.0
+    },
     'COPERNICUS/CORINE/V18_5_1/100m': {
         'landcover': 0.0
     },
