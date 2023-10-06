@@ -131,6 +131,18 @@ var scaleParams = {
     'CIESIN/GPWv411/GPW_Basic_Demographic_Characteristics': {
         'basic_demographic_characteristics': 1.0
     },
+    'CIESIN/GPWv411/GPW_Data_Context': {
+        'data_context': 1.0
+    },
+    'CIESIN/GPWv411/GPW_Land_Area': {
+        'land_area': 1.0
+    },
+    'CIESIN/GPWv411/GPW_Mean_Administrative_Unit_Area': {
+        'mean_administrative_unit_area': 1.0
+    },
+    'CIESIN/GPWv411/GPW_National_Identifier_Grid': {
+        'national_identifier_grid': 1.0
+    },
     'CIESIN/GPWv411/GPW_Population_Count': {
         'population_count': 1.0
     },
@@ -142,6 +154,12 @@ var scaleParams = {
     },
     'CIESIN/GPWv411/GPW_UNWPP-Adjusted_Population_Density': {
         'unwpp-adjusted_population_density': 1.0
+    },
+    'CIESIN/GPWv411/GPW_Water_Area': {
+        'water_area': 1.0
+    },
+    'CIESIN/GPWv411/GPW_Water_Mask': {
+        'water_mask': 1.0
     },
     'COPERNICUS/CORINE/V18_5_1/100m': {
         'landcover': 1.0
@@ -1680,6 +1698,10 @@ var scaleParams = {
         'duration': 1.0,
         'flooded': 1.0,
         'jrc_perm_water': 1.0
+    },
+    'GOOGLE/CLOUD_SCORE_PLUS/V1/S2_HARMONIZED': {
+        'cs': 1.0,
+        'cs_cdf': 1.0
     },
     'GOOGLE/DYNAMICWORLD/V1': {
         'bare': 1.0,
@@ -10111,6 +10133,15 @@ var scaleParams = {
         'G': 0.0001,
         'N': 0.0001,
         'R': 0.0001
+    },
+    'projects/sat-io/open-datasets/GLOBathy/GLOBathy_bathymetry': {
+        'b1': 1.0
+    },
+    'projects/sat-io/open-datasets/ORNL/LANDSCAN_GLOBAL': {
+        'b1': 1.0
+    },
+    'projects/sat-io/open-datasets/us-drought-monitor': {
+        'b1': 1.0
     }
 };
 
