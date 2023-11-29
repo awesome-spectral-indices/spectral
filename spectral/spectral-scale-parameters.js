@@ -9228,6 +9228,11 @@ var scaleParams = {
         'friction': 1.0,
         'friction_walking_only': 1.0
     },
+    'RUB/RUBCLIM/LCZ/global_lcz_map/latest': {
+        'LCZ': 1.0,
+        'LCZ_Filter': 1.0,
+        'LCZ_Probability': 1.0
+    },
     'RUB/RUBCLIM/LCZ/global_lcz_map/v1': {
         'LCZ': 1.0,
         'LCZ_Filter': 1.0,
