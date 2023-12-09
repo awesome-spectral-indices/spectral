@@ -2407,6 +2407,9 @@ var offsetParams = {
     'JRC/D5/EUCROPMAP/V1': {
         'classification': 0.0
     },
+    'JRC/GFC2020/V1': {
+        'Map': 0.0
+    },
     'JRC/GHSL/P2016/BUILT_LDSMT_GLOBE_V1': {
         'built': 0.0,
         'cnfd': 0.0,
