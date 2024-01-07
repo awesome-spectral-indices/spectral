@@ -6561,6 +6561,21 @@ var offsetParams = {
         'sur_refl_b03': 0.0,
         'sur_refl_b07': 0.0
     },
+    'MODIS/061/MOD13C1': {
+        'DetailedQA': 0.0,
+        'EVI': 0.0,
+        'EVIStdDev': 0.0,
+        'NDVI': 0.0,
+        'NDVIStdDev': 0.0,
+        'Pixel_1km': 0.0,
+        'Pixel_30deg_1km': 0.0,
+        'SolarZenith': 0.0,
+        'SummaryQA': 0.0,
+        'sur_refl_b01': 0.0,
+        'sur_refl_b02': 0.0,
+        'sur_refl_b03': 0.0,
+        'sur_refl_b07': 0.0
+    },
     'MODIS/061/MOD13Q1': {
         'DayOfYear': 0.0,
         'DetailedQA': 0.0,
@@ -6865,6 +6880,21 @@ var offsetParams = {
         'SolarZenith': 0.0,
         'SummaryQA': 0.0,
         'ViewZenith': 0.0,
+        'sur_refl_b01': 0.0,
+        'sur_refl_b02': 0.0,
+        'sur_refl_b03': 0.0,
+        'sur_refl_b07': 0.0
+    },
+    'MODIS/061/MYD13C1': {
+        'DetailedQA': 0.0,
+        'EVI': 0.0,
+        'EVIStdDev': 0.0,
+        'NDVI': 0.0,
+        'NDVIStdDev': 0.0,
+        'Pixel_1km': 0.0,
+        'Pixel_30deg_1km': 0.0,
+        'SolarZenith': 0.0,
+        'SummaryQA': 0.0,
         'sur_refl_b01': 0.0,
         'sur_refl_b02': 0.0,
         'sur_refl_b03': 0.0,
