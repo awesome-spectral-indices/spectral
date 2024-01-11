@@ -2342,6 +2342,9 @@ var scaleParams = {
         'MSK': 1.0,
         'STK': 1.0
     },
+    'JAXA/ALOS/PALSAR-2/Level2_1/StripMap_202401': {
+        'HH': 1.0
+    },
     'JAXA/ALOS/PALSAR-2/Level2_2/ScanSAR': {
         'HH': 1.0,
         'HV': 1.0,
