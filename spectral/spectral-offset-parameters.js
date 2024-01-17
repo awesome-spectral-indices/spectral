@@ -2343,7 +2343,7 @@ var offsetParams = {
         'STK': 0.0
     },
     'JAXA/ALOS/PALSAR-2/Level2_1/StripMap_202401': {
-        'HH': 0.0
+        'b1': 0.0
     },
     'JAXA/ALOS/PALSAR-2/Level2_2/ScanSAR': {
         'HH': 0.0,

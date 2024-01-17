@@ -2343,7 +2343,7 @@ var scaleParams = {
         'STK': 1.0
     },
     'JAXA/ALOS/PALSAR-2/Level2_1/StripMap_202401': {
-        'HH': 1.0
+        'b1': 1.0
     },
     'JAXA/ALOS/PALSAR-2/Level2_2/ScanSAR': {
         'HH': 1.0,
