@@ -2481,7 +2481,8 @@ var scaleParams = {
         'built_height': 1.0
     },
     'JRC/GHSL/P2023A/GHS_BUILT_S': {
-        'built_surface': 1.0
+        'built_surface': 1.0,
+        'built_surface_nres': 1.0
     },
     'JRC/GHSL/P2023A/GHS_BUILT_V': {
         'built_volume_nres': 1.0,

@@ -2481,7 +2481,8 @@ var offsetParams = {
         'built_height': 0.0
     },
     'JRC/GHSL/P2023A/GHS_BUILT_S': {
-        'built_surface': 0.0
+        'built_surface': 0.0,
+        'built_surface_nres': 0.0
     },
     'JRC/GHSL/P2023A/GHS_BUILT_V': {
         'built_volume_nres': 0.0,
