@@ -9669,6 +9669,9 @@ var scaleParams = {
     'NOAA/CDR/AVHRR/AOT/V3': {
         'aot': 1.0
     },
+    'NOAA/CDR/AVHRR/AOT/V4': {
+        'aot': 1.0
+    },
     'NOAA/CDR/AVHRR/LAI_FAPAR/V4': {
         'FAPAR': 0.001,
         'LAI': 0.001,
