@@ -10580,6 +10580,16 @@ var offsetParams = {
         'median_masked': 0.0,
         'minimum': 0.0
     },
+    'NOAA/VIIRS/DNB/ANNUAL_V22': {
+        'average': 0.0,
+        'average_masked': 0.0,
+        'cf_cvg': 0.0,
+        'cvg': 0.0,
+        'maximum': 0.0,
+        'median': 0.0,
+        'median_masked': 0.0,
+        'minimum': 0.0
+    },
     'NOAA/VIIRS/DNB/MONTHLY_V1/VCMCFG': {
         'avg_rad': 0.0,
         'cf_cvg': 0.0

@@ -10580,6 +10580,16 @@ var scaleParams = {
         'median_masked': 1.0,
         'minimum': 1.0
     },
+    'NOAA/VIIRS/DNB/ANNUAL_V22': {
+        'average': 1.0,
+        'average_masked': 1.0,
+        'cf_cvg': 1.0,
+        'cvg': 1.0,
+        'maximum': 1.0,
+        'median': 1.0,
+        'median_masked': 1.0,
+        'minimum': 1.0
+    },
     'NOAA/VIIRS/DNB/MONTHLY_V1/VCMCFG': {
         'avg_rad': 1.0,
         'cf_cvg': 1.0
