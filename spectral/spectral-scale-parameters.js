@@ -7187,6 +7187,12 @@ var scaleParams = {
         'temperature': 0.01,
         'temperature_sdev': 0.01
     },
+    'NASA/EMIT/L2B/CH4ENH': {
+        'vertical_column_enhancement': 1.0
+    },
+    'NASA/EMIT/L2B/CH4PLM': {
+        'methane_plume_complex': 1.0
+    },
     'NASA/FLDAS/NOAH01/C/GL/M/V001': {
         'Evap_tavg': 1.0,
         'LWdown_f_tavg': 1.0,
