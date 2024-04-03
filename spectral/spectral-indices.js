@@ -1478,7 +1478,7 @@ var spectralIndices = {
             'long_name': 'Normalized Difference Soil Index',
             'platforms': ['Sentinel-2', 'Landsat-OLI', 'Landsat-TM', 'Landsat-ETM+', 'MODIS'],
             'reference': 'https://doi.org/10.1016/j.jag.2015.02.010',
-            'short_name': 'NDSoiI'
+            'short_name': 'NDSoI'
         },
         'NDTI': {
             'application_domain': 'water',
