@@ -11808,6 +11808,9 @@ var scaleParams = {
         'tmax': 0.1,
         'tmin': 0.1
     },
+    'WRI/Aqueduct_Flood_Hazard_Maps/V2': {
+        'inundation_depth': 1.0
+    },
     'WRI/GFW/FORMA/alerts': {
         'alert_date': 1.0,
         'alert_delta': 1.0
