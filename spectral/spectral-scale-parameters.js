@@ -2487,6 +2487,10 @@ var scaleParams = {
         'built_surface': 1.0,
         'built_surface_nres': 1.0
     },
+    'JRC/GHSL/P2023A/GHS_BUILT_S_10m': {
+        'built_surface': 1.0,
+        'built_surface_nres': 1.0
+    },
     'JRC/GHSL/P2023A/GHS_BUILT_V': {
         'built_volume_nres': 1.0,
         'built_volume_total': 1.0
@@ -7684,6 +7688,14 @@ var scaleParams = {
         'lwe_thickness_csr': 1.0,
         'lwe_thickness_gfz': 1.0,
         'lwe_thickness_jpl': 1.0
+    },
+    'NASA/GRACE/MASS_GRIDS_V04/LAND': {
+        'lwe_thickness_csr': 1.0,
+        'lwe_thickness_gfz': 1.0,
+        'lwe_thickness_jpl': 1.0,
+        'uncertainty_csr': 1.0,
+        'uncertainty_gfz': 1.0,
+        'uncertainty_jpl': 1.0
     },
     'NASA/GSFC/MERRA/aer/2': {
         'BCANGSTR': 1.0,
