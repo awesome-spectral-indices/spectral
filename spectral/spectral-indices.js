@@ -1089,7 +1089,7 @@ var spectralIndices = {
             'bands': ['S2', 'S1', 'G'],
             'contributor': 'https://github.com/davemlz',
             'date_of_addition': '2022-09-22',
-            'formula': '((S2 - S1)/G)/((S2 + S1)/G)',
+            'formula': '(S2 - S1/G)/(S2 + S1/G)',
             'long_name': 'Normalized Built-up Area Index',
             'platforms': ['Sentinel-2', 'Landsat-OLI', 'Landsat-TM', 'Landsat-ETM+', 'MODIS'],
             'reference': 'https://www.omicsonline.org/scientific-reports/JGRS-SR136.pdf',
