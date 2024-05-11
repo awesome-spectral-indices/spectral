@@ -12070,6 +12070,9 @@ var offsetParams = {
         'Daytime': 0.0,
         'Nighttime': 0.0
     },
+    'projects/forestdatapartnership/assets/community_palm/20240312': {
+        'probability': 0.0
+    },
     'projects/geoscience-aus-cat/assets/NIDEM': {
         'nidem': 0.0,
         'nidem_mask': 0.0,
