@@ -105,18 +105,23 @@ var constants = {
     },
     'lambdaG': {
         'default': None,
-        'description': 'Green wavelength (nm) used for NDGI',
+        'description': 'Green central wavelength (nm)',
         'short_name': 'lambdaG'
     },
     'lambdaN': {
         'default': None,
-        'description': 'NIR wavelength (nm) used for NIRvH2 and NDGI',
+        'description': 'NIR central wavelength (nm)',
         'short_name': 'lambdaN'
     },
     'lambdaR': {
         'default': None,
-        'description': 'Red wavelength (nm) used for NIRvH2 and NDGI',
+        'description': 'Red central wavelength (nm)',
         'short_name': 'lambdaR'
+    },
+    'lambdaS1': {
+        'default': None,
+        'description': 'SWIR1 central wavelength (nm)',
+        'short_name': 'lambdaS1'
     },
     'nexp': {
         'default': 2.0,
