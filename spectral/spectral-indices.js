@@ -2710,7 +2710,7 @@ var spectralIndices = {
             'long_name': 'SWIR-enhanced Near-Infrared Reflectance of Vegetation for the NDVI-LSWI Product',
             'platforms': ['Sentinel-2', 'Landsat-OLI', 'Landsat-TM', 'Landsat-ETM+', 'MODIS'],
             'reference': 'https://doi.org/10.22541/essoar.171561872.22414664/v1',
-            'short_name': 'sNIRvNDVIxLSWI'
+            'short_name': 'sNIRvNDVILSWIP'
         },
         'sNIRvNDVILSWIS': {
             'application_domain': 'vegetation',
@@ -2721,7 +2721,7 @@ var spectralIndices = {
             'long_name': 'SWIR-enhanced Near-Infrared Reflectance of Vegetation for the NDVI-LSWI Sum',
             'platforms': ['Sentinel-2', 'Landsat-OLI', 'Landsat-TM', 'Landsat-ETM+', 'MODIS'],
             'reference': 'https://doi.org/10.22541/essoar.171561872.22414664/v1',
-            'short_name': 'sNIRvNDVIxLSWI'
+            'short_name': 'sNIRvNDVILSWIS'
         },
         'sNIRvSWIR': {
             'application_domain': 'vegetation',
