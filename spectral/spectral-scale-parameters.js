@@ -9222,6 +9222,13 @@ var scaleParams = {
         'probabilityLiquidPrecipitation': 1.0,
         'randomError': 1.0
     },
+    'NASA/GPM_L3/IMERG_MONTHLY_V07': {
+        'gaugeRelativeWeighting': 1.0,
+        'precipitation': 1.0,
+        'precipitationQualityIndex': 1.0,
+        'probabilityLiquidPrecipitation': 1.0,
+        'randomError': 1.0
+    },
     'NASA/GPM_L3/IMERG_V06': {
         'HQobservationTime': 1.0,
         'HQprecipSource': 1.0,
