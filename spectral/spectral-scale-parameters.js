@@ -91,6 +91,9 @@ var scaleParams = {
     'BNU/FGS/CCNL/v1': {
         'b1': 1.0
     },
+    'CANADA/NFIS/NTEMS/CA_FOREST_AGE': {
+        'forest': 1.0
+    },
     'CAS/IGSNRR/PML/V2': {
         'ET_water': 1.0,
         'Ec': 1.0,
@@ -4197,6 +4200,21 @@ var scaleParams = {
     'LANDFIRE/Vegetation/EVT/v1_4_0': {
         'EVT': 1.0
     },
+    'LANDSAT/COMPOSITES/C02/T1_L2_32DAY_BAI': {
+        'BAI': 1.0
+    },
+    'LANDSAT/COMPOSITES/C02/T1_L2_32DAY_EVI': {
+        'EVI': 1.0
+    },
+    'LANDSAT/COMPOSITES/C02/T1_L2_32DAY_NBR': {
+        'NBRT': 1.0
+    },
+    'LANDSAT/COMPOSITES/C02/T1_L2_32DAY_NDVI': {
+        'NDVI': 1.0
+    },
+    'LANDSAT/COMPOSITES/C02/T1_L2_32DAY_NDWI': {
+        'NDWI': 1.0
+    },
     'LANDSAT/COMPOSITES/C02/T1_L2_8DAY_BAI': {
         'BAI': 1.0
     },
@@ -4210,6 +4228,21 @@ var scaleParams = {
         'NDVI': 1.0
     },
     'LANDSAT/COMPOSITES/C02/T1_L2_8DAY_NDWI': {
+        'NDWI': 1.0
+    },
+    'LANDSAT/COMPOSITES/C02/T1_L2_ANNUAL_BAI': {
+        'BAI': 1.0
+    },
+    'LANDSAT/COMPOSITES/C02/T1_L2_ANNUAL_EVI': {
+        'EVI': 1.0
+    },
+    'LANDSAT/COMPOSITES/C02/T1_L2_ANNUAL_NBR': {
+        'NBRT': 1.0
+    },
+    'LANDSAT/COMPOSITES/C02/T1_L2_ANNUAL_NDVI': {
+        'NDVI': 1.0
+    },
+    'LANDSAT/COMPOSITES/C02/T1_L2_ANNUAL_NDWI': {
         'NDWI': 1.0
     },
     'LANDSAT/GLS1975': {
