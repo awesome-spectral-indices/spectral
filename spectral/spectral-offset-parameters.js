@@ -12060,6 +12060,9 @@ var offsetParams = {
         'count_wet': 0.0,
         'frequency': 0.0
     },
+    'projects/neon-prod-earthengine/assets/CHM/001': {
+        'CHM': 0.0
+    },
     'projects/ngis-cat/assets/DEA/NIDEM': {
         'nidem': 0.0,
         'nidem_mask': 0.0,

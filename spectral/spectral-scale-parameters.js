@@ -12060,6 +12060,9 @@ var scaleParams = {
         'count_wet': 1.0,
         'frequency': 1.0
     },
+    'projects/neon-prod-earthengine/assets/CHM/001': {
+        'CHM': 1.0
+    },
     'projects/ngis-cat/assets/DEA/NIDEM': {
         'nidem': 1.0,
         'nidem_mask': 1.0,
