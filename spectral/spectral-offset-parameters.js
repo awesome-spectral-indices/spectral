@@ -6518,6 +6518,11 @@ var offsetParams = {
         'PsnNet': 0.0,
         'Psn_QC': 0.0
     },
+    'MODIS/061/MOD17A2HGF': {
+        'Gpp': 0.0,
+        'PsnNet': 0.0,
+        'Psn_QC': 0.0
+    },
     'MODIS/061/MOD17A3HGF': {
         'Gpp': 0.0,
         'Npp': 0.0,
