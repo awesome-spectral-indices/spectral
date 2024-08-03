@@ -269,7 +269,7 @@ var bands = {
         'short_name': 'G'
     },
     'G1': {
-        'common_name': 'green',
+        'common_name': 'green05',
         'long_name': 'Green 1',
         'max_wavelength': 550,
         'min_wavelength': 510,
@@ -318,34 +318,6 @@ var bands = {
                 'platform': 'Landsat 7',
                 'wavelength': 835.0
             },
-            'landsat8': {
-                'band': 'B5',
-                'bandwidth': 30.0,
-                'name': 'Near-Infrared (NIR)',
-                'platform': 'Landsat 8',
-                'wavelength': 865.0
-            },
-            'landsat9': {
-                'band': 'B5',
-                'bandwidth': 30.0,
-                'name': 'Near-Infrared (NIR)',
-                'platform': 'Landsat 9',
-                'wavelength': 865.0
-            },
-            'modis': {
-                'band': 'B2',
-                'bandwidth': 35.0,
-                'name': 'Near-Infrared (NIR)',
-                'platform': 'Terra/Aqua: MODIS',
-                'wavelength': 858.5
-            },
-            'planetscope': {
-                'band': 'B8',
-                'bandwidth': 40.0,
-                'name': 'Near-Infrared (NIR)',
-                'platform': 'PlanetScope',
-                'wavelength': 865.0
-            },
             'sentinel2a': {
                 'band': 'B8',
                 'bandwidth': 106.0,
@@ -383,6 +355,34 @@ var bands = {
         'max_wavelength': 880,
         'min_wavelength': 850,
         'platforms': {
+            'landsat8': {
+                'band': 'B5',
+                'bandwidth': 30.0,
+                'name': 'Near-Infrared (NIR)',
+                'platform': 'Landsat 8',
+                'wavelength': 865.0
+            },
+            'landsat9': {
+                'band': 'B5',
+                'bandwidth': 30.0,
+                'name': 'Near-Infrared (NIR)',
+                'platform': 'Landsat 9',
+                'wavelength': 865.0
+            },
+            'modis': {
+                'band': 'B2',
+                'bandwidth': 35.0,
+                'name': 'Near-Infrared (NIR)',
+                'platform': 'Terra/Aqua: MODIS',
+                'wavelength': 858.5
+            },
+            'planetscope': {
+                'band': 'B8',
+                'bandwidth': 40.0,
+                'name': 'Near-Infrared (NIR)',
+                'platform': 'PlanetScope',
+                'wavelength': 865.0
+            },
             'sentinel2a': {
                 'band': 'B8A',
                 'bandwidth': 21.0,
@@ -487,7 +487,7 @@ var bands = {
         'short_name': 'R'
     },
     'RE1': {
-        'common_name': 'rededge',
+        'common_name': 'rededge071',
         'long_name': 'Red Edge 1',
         'max_wavelength': 715,
         'min_wavelength': 695,
@@ -517,7 +517,7 @@ var bands = {
         'short_name': 'RE1'
     },
     'RE2': {
-        'common_name': 'rededge',
+        'common_name': 'rededge075',
         'long_name': 'Red Edge 2',
         'max_wavelength': 750,
         'min_wavelength': 730,
@@ -540,7 +540,7 @@ var bands = {
         'short_name': 'RE2'
     },
     'RE3': {
-        'common_name': 'rededge',
+        'common_name': 'rededge078',
         'long_name': 'Red Edge 3',
         'max_wavelength': 795,
         'min_wavelength': 765,
