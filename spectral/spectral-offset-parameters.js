@@ -108,6 +108,13 @@ var offsetParams = {
         'Es': 0.0,
         'GPP': 0.0
     },
+    'CAS/IGSNRR/PML/V2_v018': {
+        'ET_water': 0.0,
+        'Ec': 0.0,
+        'Ei': 0.0,
+        'Es': 0.0,
+        'GPP': 0.0
+    },
     'CGIAR/SRTM90_V4': {
         'elevation': 0.0
     },
