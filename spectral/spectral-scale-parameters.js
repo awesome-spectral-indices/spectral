@@ -1674,7 +1674,15 @@ var scaleParams = {
     'Estonia/Maamet/orthos/mono': {
         'mono': 1.0
     },
+    'Estonia/Maamet/orthos/mono_low_flying': {
+        'mono': 1.0
+    },
     'Estonia/Maamet/orthos/rgb': {
+        'B': 1.0,
+        'G': 1.0,
+        'R': 1.0
+    },
+    'Estonia/Maamet/orthos/rgb_low_flying': {
         'B': 1.0,
         'G': 1.0,
         'R': 1.0
@@ -10006,6 +10014,12 @@ var scaleParams = {
         'relative_azimuth_angle': 1.0,
         'sun_zenith_angle': 1.0,
         'view_zenith_angle': 1.0
+    },
+    'NASA/VIIRS/002/VNP14A1': {
+        'FireMask': 1.0,
+        'MaxFRP': 1.0,
+        'QA': 1.0,
+        'sample': 1.0
     },
     'NASA/VIIRS/002/VNP15A2H': {
         'Fpar': 1.0,

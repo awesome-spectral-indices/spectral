@@ -1674,7 +1674,15 @@ var offsetParams = {
     'Estonia/Maamet/orthos/mono': {
         'mono': 0.0
     },
+    'Estonia/Maamet/orthos/mono_low_flying': {
+        'mono': 0.0
+    },
     'Estonia/Maamet/orthos/rgb': {
+        'B': 0.0,
+        'G': 0.0,
+        'R': 0.0
+    },
+    'Estonia/Maamet/orthos/rgb_low_flying': {
         'B': 0.0,
         'G': 0.0,
         'R': 0.0
@@ -10006,6 +10014,12 @@ var offsetParams = {
         'relative_azimuth_angle': 0.0,
         'sun_zenith_angle': 0.0,
         'view_zenith_angle': 0.0
+    },
+    'NASA/VIIRS/002/VNP14A1': {
+        'FireMask': 0.0,
+        'MaxFRP': 0.0,
+        'QA': 0.0,
+        'sample': 0.0
     },
     'NASA/VIIRS/002/VNP15A2H': {
         'Fpar': 0.0,
