@@ -1445,6 +1445,9 @@ var offsetParams = {
         'volumetric_soil_water_layer_3': 0.0,
         'volumetric_soil_water_layer_4': 0.0
     },
+    'EDF/MethaneSAT/MethaneAIR/L4area': {
+        'flux': 0.0
+    },
     'EDF/MethaneSAT/MethaneAIR/methaneair-L4area-2021': {
         'flux': 0.0
     },
