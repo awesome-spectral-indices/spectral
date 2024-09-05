@@ -12863,6 +12863,10 @@ var offsetParams = {
     'WRI/GFW/FORMA/vegetation_tstats': {
         'tstat_r': 0.0
     },
+    'WRI/SBTN/naturalLands/v1': {
+        'classification': 0.0,
+        'natural': 0.0
+    },
     'WWF/HydroSHEDS/03CONDEM': {
         'b1': 0.0
     },
