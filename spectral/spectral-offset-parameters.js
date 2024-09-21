@@ -88,6 +88,9 @@ var offsetParams = {
     'BIOPAMA/GlobalOilPalm/v1': {
         'classification': 0.0
     },
+    'BNETD/land_cover/v1': {
+        'classification': 0.0
+    },
     'BNU/FGS/CCNL/v1': {
         'b1': 0.0
     },
