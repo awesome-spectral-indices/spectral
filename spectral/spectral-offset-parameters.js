@@ -4035,6 +4035,9 @@ var offsetParams = {
         'twprobabilityEnd': 0.0,
         'twprobabilityStart': 0.0
     },
+    'JRC/CEMS_GLOFAS/FloodHazard/v1': {
+        'depth': 0.0
+    },
     'JRC/D5/EUCROPMAP/V1': {
         'classification': 0.0
     },

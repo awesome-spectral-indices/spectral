@@ -4035,6 +4035,9 @@ var scaleParams = {
         'twprobabilityEnd': 1.0,
         'twprobabilityStart': 1.0
     },
+    'JRC/CEMS_GLOFAS/FloodHazard/v1': {
+        'depth': 1.0
+    },
     'JRC/D5/EUCROPMAP/V1': {
         'classification': 1.0
     },
