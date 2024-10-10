@@ -12013,6 +12013,9 @@ var scaleParams = {
         'dsm_last': 1.0,
         'dtm': 1.0
     },
+    'UK/NHM/BII/V1': {
+        'b1': 1.0
+    },
     'UMD/GLAD/PRIMARY_HUMID_TROPICAL_FORESTS/v1': {
         'Primary_HT_forests': 1.0
     },

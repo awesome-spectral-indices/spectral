@@ -12013,6 +12013,9 @@ var offsetParams = {
         'dsm_last': 0.0,
         'dtm': 0.0
     },
+    'UK/NHM/BII/V1': {
+        'b1': 0.0
+    },
     'UMD/GLAD/PRIMARY_HUMID_TROPICAL_FORESTS/v1': {
         'Primary_HT_forests': 0.0
     },
