@@ -4079,6 +4079,9 @@ var scaleParams = {
     'JRC/GHSL/P2023A/GHS_SMOD': {
         'smod_code': 1.0
     },
+    'JRC/GHSL/P2023A/GHS_SMOD_V2-0': {
+        'smod_code': 1.0
+    },
     'JRC/GSW1_0/GlobalSurfaceWater': {
         'change_abs': 1.0,
         'change_norm': 1.0,
@@ -5369,13 +5372,9 @@ var scaleParams = {
         'mean': 1.0,
         'meanbse': 1.0,
         'median': 1.0,
-        'orbits_uniq': 1.0,
         'p95': 1.0,
         'sd': 1.0,
-        'shan': 1.0,
-        'shots_count': 1.0,
-        'shots_nni': 1.0,
-        'tracks_uniq': 1.0
+        'shan': 1.0
     },
     'LARSE/GEDI/GRIDDEDVEG_002/V1/1KM': {
         'countf': 1.0,
@@ -5383,13 +5382,9 @@ var scaleParams = {
         'mean': 1.0,
         'meanbse': 1.0,
         'median': 1.0,
-        'orbits_uniq': 1.0,
         'p95': 1.0,
         'sd': 1.0,
-        'shan': 1.0,
-        'shots_count': 1.0,
-        'shots_nni': 1.0,
-        'tracks_uniq': 1.0
+        'shan': 1.0
     },
     'LARSE/GEDI/GRIDDEDVEG_002/V1/6KM': {
         'countf': 1.0,
@@ -5397,13 +5392,9 @@ var scaleParams = {
         'mean': 1.0,
         'meanbse': 1.0,
         'median': 1.0,
-        'orbits_uniq': 1.0,
         'p95': 1.0,
         'sd': 1.0,
-        'shan': 1.0,
-        'shots_count': 1.0,
-        'shots_nni': 1.0,
-        'tracks_uniq': 1.0
+        'shan': 1.0
     },
     'Latvia/Maamet/orthos/cir': {
         'G': 1.0,
