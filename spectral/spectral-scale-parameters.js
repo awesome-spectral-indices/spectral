@@ -5366,6 +5366,24 @@ var scaleParams = {
         'V1': 1.0,
         'V2': 1.0
     },
+    'LARSE/GEDI/GRIDDEDVEG_002/COUNTS/V1/12KM': {
+        'orbits_uniq': 1.0,
+        'shots_count': 1.0,
+        'shots_nni': 1.0,
+        'tracks_uniq': 1.0
+    },
+    'LARSE/GEDI/GRIDDEDVEG_002/COUNTS/V1/1KM': {
+        'orbits_uniq': 1.0,
+        'shots_count': 1.0,
+        'shots_nni': 1.0,
+        'tracks_uniq': 1.0
+    },
+    'LARSE/GEDI/GRIDDEDVEG_002/COUNTS/V1/6KM': {
+        'orbits_uniq': 1.0,
+        'shots_count': 1.0,
+        'shots_nni': 1.0,
+        'tracks_uniq': 1.0
+    },
     'LARSE/GEDI/GRIDDEDVEG_002/V1/12KM': {
         'countf': 1.0,
         'iqr': 1.0,
