@@ -10529,6 +10529,9 @@ var offsetParams = {
         'bgb': 0.0,
         'bgb_uncertainty': 0.0
     },
+    'NASA/ORNL/global_forest_classification_2020/V1': {
+        'classification': 0.0
+    },
     'NASA/SMAP/SPL3SMP_E/005': {
         'retrieval_qual_flag_am': 0.0,
         'retrieval_qual_flag_pm': 0.0,
