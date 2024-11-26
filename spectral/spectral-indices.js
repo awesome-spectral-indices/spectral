@@ -586,7 +586,7 @@ var spectralIndices = {
             'formula': '2.5 * ((N - R)/(N + 6 * R - 7.5 * B + 1.0)) * N',
             'long_name': 'Enhanced Vegetation Index of Vegetation',
             'platforms': ['Sentinel-2', 'Landsat-OLI', 'Landsat-TM', 'Landsat-ETM+', 'MODIS', 'Planet-Fusion'],
-            'reference': 'https://doi.org/10.22541/essoar.171561872.22414664/v1',
+            'reference': 'https://doi.org/10.1029/2024JG008240',
             'short_name': 'EVIv'
         },
         'ExG': {
@@ -2621,7 +2621,7 @@ var spectralIndices = {
             'formula': '((N - B)/(N + B)) * N',
             'long_name': 'Blue Near-Infrared Reflectance of Vegetation',
             'platforms': ['Sentinel-2', 'Landsat-OLI', 'Landsat-TM', 'Landsat-ETM+', 'MODIS', 'Planet-Fusion'],
-            'reference': 'https://doi.org/10.22541/essoar.171561872.22414664/v1',
+            'reference': 'https://doi.org/10.1029/2024JG008240',
             'short_name': 'bNIRv'
         },
         'kEVI': {
@@ -2709,7 +2709,7 @@ var spectralIndices = {
             'formula': '((N - S2)/(N + S2)) * N',
             'long_name': 'SWIR-enhanced Near-Infrared Reflectance of Vegetation for LSWI',
             'platforms': ['Sentinel-2', 'Landsat-OLI', 'Landsat-TM', 'Landsat-ETM+', 'MODIS'],
-            'reference': 'https://doi.org/10.22541/essoar.171561872.22414664/v1',
+            'reference': 'https://doi.org/10.1029/2024JG008240',
             'short_name': 'sNIRvLSWI'
         },
         'sNIRvNDPI': {
@@ -2720,7 +2720,7 @@ var spectralIndices = {
             'formula': '(N - (alpha * R + (1.0 - alpha) * S2))/(N + (alpha * R + (1.0 - alpha) * S2)) * N',
             'long_name': 'SWIR-enhanced Near-Infrared Reflectance of Vegetation for NDPI',
             'platforms': ['Sentinel-2', 'Landsat-OLI', 'Landsat-TM', 'Landsat-ETM+', 'MODIS'],
-            'reference': 'https://doi.org/10.22541/essoar.171561872.22414664/v1',
+            'reference': 'https://doi.org/10.1029/2024JG008240',
             'short_name': 'sNIRvNDPI'
         },
         'sNIRvNDVILSWIP': {
@@ -2731,7 +2731,7 @@ var spectralIndices = {
             'formula': '((N - R)/(N + R)) * ((N - S2)/(N + S2)) * N',
             'long_name': 'SWIR-enhanced Near-Infrared Reflectance of Vegetation for the NDVI-LSWI Product',
             'platforms': ['Sentinel-2', 'Landsat-OLI', 'Landsat-TM', 'Landsat-ETM+', 'MODIS'],
-            'reference': 'https://doi.org/10.22541/essoar.171561872.22414664/v1',
+            'reference': 'https://doi.org/10.1029/2024JG008240',
             'short_name': 'sNIRvNDVILSWIP'
         },
         'sNIRvNDVILSWIS': {
@@ -2742,7 +2742,7 @@ var spectralIndices = {
             'formula': '(((N - R)/(N + R)) + ((N - S2)/(N + S2))) * N',
             'long_name': 'SWIR-enhanced Near-Infrared Reflectance of Vegetation for the NDVI-LSWI Sum',
             'platforms': ['Sentinel-2', 'Landsat-OLI', 'Landsat-TM', 'Landsat-ETM+', 'MODIS'],
-            'reference': 'https://doi.org/10.22541/essoar.171561872.22414664/v1',
+            'reference': 'https://doi.org/10.1029/2024JG008240',
             'short_name': 'sNIRvNDVILSWIS'
         },
         'sNIRvSWIR': {
@@ -2753,7 +2753,7 @@ var spectralIndices = {
             'formula': '((N - R - S2 ** 2.0)/(N + R + S2 ** 2.0)) * N',
             'long_name': 'SWIR-enhanced Near-Infrared Reflectance of Vegetation',
             'platforms': ['Sentinel-2', 'Landsat-OLI', 'Landsat-TM', 'Landsat-ETM+', 'MODIS'],
-            'reference': 'https://doi.org/10.22541/essoar.171561872.22414664/v1',
+            'reference': 'https://doi.org/10.1029/2024JG008240',
             'short_name': 'sNIRvSWIR'
         }
     }
