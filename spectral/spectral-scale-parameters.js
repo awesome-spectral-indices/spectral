@@ -12986,6 +12986,9 @@ var scaleParams = {
     'projects/forestdatapartnership/assets/community_palm/20240312': {
         'probability': 1.0
     },
+    'projects/forestdatapartnership/assets/palm/model_2024a': {
+        'probability': 1.0
+    },
     'projects/geoscience-aus-cat/assets/NIDEM': {
         'nidem': 1.0,
         'nidem_mask': 1.0,
