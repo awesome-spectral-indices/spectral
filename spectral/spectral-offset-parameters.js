@@ -12989,6 +12989,9 @@ var offsetParams = {
     'projects/forestdatapartnership/assets/palm/model_2024a': {
         'probability': 0.0
     },
+    'projects/forestdatapartnership/assets/rubber/model_2024a': {
+        'probability': 0.0
+    },
     'projects/geoscience-aus-cat/assets/NIDEM': {
         'nidem': 0.0,
         'nidem_mask': 0.0,
