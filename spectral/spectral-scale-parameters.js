@@ -12986,6 +12986,9 @@ var scaleParams = {
     'projects/forestdatapartnership/assets/cocoa/model_2024a': {
         'probability': 1.0
     },
+    'projects/forestdatapartnership/assets/community_forests/ForestPersistence_2020': {
+        'value': 1.0
+    },
     'projects/forestdatapartnership/assets/community_palm/20240312': {
         'probability': 1.0
     },

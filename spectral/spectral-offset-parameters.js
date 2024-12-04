@@ -12986,6 +12986,9 @@ var offsetParams = {
     'projects/forestdatapartnership/assets/cocoa/model_2024a': {
         'probability': 0.0
     },
+    'projects/forestdatapartnership/assets/community_forests/ForestPersistence_2020': {
+        'value': 0.0
+    },
     'projects/forestdatapartnership/assets/community_palm/20240312': {
         'probability': 0.0
     },
