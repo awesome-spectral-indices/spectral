@@ -4044,6 +4044,9 @@ var offsetParams = {
     'JRC/GFC2020/V1': {
         'Map': 0.0
     },
+    'JRC/GFC2020/V2': {
+        'Map': 0.0
+    },
     'JRC/GFC2020_subtypes/V0': {
         'GFT': 0.0
     },
