@@ -13162,6 +13162,15 @@ var scaleParams = {
         'count_wet': 1.0,
         'frequency': 1.0
     },
+    'projects/global-pasture-watch/assets/ggc-30m/v1/cultiv-grassland_p': {
+        'probability': 1.0
+    },
+    'projects/global-pasture-watch/assets/ggc-30m/v1/grassland_c': {
+        'dominant_class': 1.0
+    },
+    'projects/global-pasture-watch/assets/ggc-30m/v1/nat-semi-grassland_p': {
+        'probability': 1.0
+    },
     'projects/neon-prod-earthengine/assets/CHM/001': {
         'CHM': 1.0
     },
