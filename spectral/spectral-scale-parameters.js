@@ -4056,7 +4056,7 @@ var scaleParams = {
         'Map': 1.0
     },
     'JRC/GFC2020_subtypes/V0': {
-        'GFT': 1.0
+        'Map': 1.0
     },
     'JRC/GHSL/P2016/BUILT_LDSMT_GLOBE_V1': {
         'built': 1.0,
@@ -4271,7 +4271,7 @@ var scaleParams = {
         'EVI': 1.0
     },
     'LANDSAT/COMPOSITES/C02/T1_L2_32DAY_NBR': {
-        'NBRT': 1.0
+        'NBR': 1.0
     },
     'LANDSAT/COMPOSITES/C02/T1_L2_32DAY_NDVI': {
         'NDVI': 1.0
@@ -4286,7 +4286,7 @@ var scaleParams = {
         'EVI': 1.0
     },
     'LANDSAT/COMPOSITES/C02/T1_L2_8DAY_NBR': {
-        'NBRT': 1.0
+        'NBR': 1.0
     },
     'LANDSAT/COMPOSITES/C02/T1_L2_8DAY_NDVI': {
         'NDVI': 1.0
@@ -4301,7 +4301,7 @@ var scaleParams = {
         'EVI': 1.0
     },
     'LANDSAT/COMPOSITES/C02/T1_L2_ANNUAL_NBR': {
-        'NBRT': 1.0
+        'NBR': 1.0
     },
     'LANDSAT/COMPOSITES/C02/T1_L2_ANNUAL_NDVI': {
         'NDVI': 1.0
@@ -6641,22 +6641,22 @@ var scaleParams = {
         'Npp_QC': 1.0
     },
     'MODIS/061/MOD21A1D': {
-        'Emis_29': 0.002,
-        'Emis_31': 0.002,
-        'Emis_32': 0.002,
-        'LST_1KM': 0.02,
+        'Emis_29': 1.0,
+        'Emis_31': 1.0,
+        'Emis_32': 1.0,
+        'LST_1KM': 1.0,
         'QC': 1.0,
         'View_Angle': 1.0,
-        'View_Time': 0.1
+        'View_Time': 1.0
     },
     'MODIS/061/MOD21A1N': {
-        'Emis_29': 0.002,
-        'Emis_31': 0.002,
-        'Emis_32': 0.002,
-        'LST_1KM': 0.02,
+        'Emis_29': 1.0,
+        'Emis_31': 1.0,
+        'Emis_32': 1.0,
+        'LST_1KM': 1.0,
         'QC': 1.0,
         'View_Angle': 1.0,
-        'View_Time': 0.1
+        'View_Time': 1.0
     },
     'MODIS/061/MOD21C1': {
         'Count_Day': 1.0,
@@ -6978,22 +6978,22 @@ var scaleParams = {
         'Npp_QC': 1.0
     },
     'MODIS/061/MYD21A1D': {
-        'Emis_29': 0.002,
-        'Emis_31': 0.002,
-        'Emis_32': 0.002,
-        'LST_1KM': 0.02,
+        'Emis_29': 1.0,
+        'Emis_31': 1.0,
+        'Emis_32': 1.0,
+        'LST_1KM': 1.0,
         'QC': 1.0,
         'View_Angle': 1.0,
-        'View_Time': 0.1
+        'View_Time': 1.0
     },
     'MODIS/061/MYD21A1N': {
-        'Emis_29': 0.002,
-        'Emis_31': 0.002,
-        'Emis_32': 0.002,
-        'LST_1KM': 0.02,
+        'Emis_29': 1.0,
+        'Emis_31': 1.0,
+        'Emis_32': 1.0,
+        'LST_1KM': 1.0,
         'QC': 1.0,
         'View_Angle': 1.0,
-        'View_Time': 0.1
+        'View_Time': 1.0
     },
     'MODIS/061/MYD21C1': {
         'Count_Day': 1.0,
@@ -11063,15 +11063,28 @@ var scaleParams = {
         'stable_lights': 1.0
     },
     'NOAA/GFS0P25': {
+        'dew_point_temperature_2m_above_ground': 1.0,
+        'downward_longwave_radiation_flux': 1.0,
         'downward_shortwave_radiation_flux': 1.0,
+        'gust': 1.0,
+        'haines_index': 1.0,
+        'maximum_temperature_2m_above_ground': 1.0,
+        'minimum_temperature_2m_above_ground': 1.0,
+        'planetary_boundary_layer_height': 1.0,
         'precipitable_water_entire_atmosphere': 1.0,
+        'precipitation_rate': 1.0,
         'relative_humidity_2m_above_ground': 1.0,
         'specific_humidity_2m_above_ground': 1.0,
         'temperature_2m_above_ground': 1.0,
         'total_cloud_cover_entire_atmosphere': 1.0,
         'total_precipitation_surface': 1.0,
         'u_component_of_wind_10m_above_ground': 1.0,
-        'v_component_of_wind_10m_above_ground': 1.0
+        'u_component_of_wind_planetary_boundary_layer': 1.0,
+        'upward_longwave_radiation_flux': 1.0,
+        'upward_shortwave_radiation_flux': 1.0,
+        'v_component_of_wind_10m_above_ground': 1.0,
+        'v_component_of_wind_planetary_boundary_layer': 1.0,
+        'ventilation_rate': 1.0
     },
     'NOAA/GOES/16/FDCC': {
         'Area': 60.98,
@@ -12328,9 +12341,19 @@ var scaleParams = {
         'cropland': 1.0,
         'cultivated': 1.0
     },
+    'USDA/WRC/v0': {
+        'BP': 1.0,
+        'CFL': 1.0,
+        'CRPS': 1.0,
+        'Exposure': 1.0,
+        'FLEP4': 1.0,
+        'FLEP8': 1.0,
+        'RPS': 1.0,
+        'WHP': 1.0
+    },
     'USFS/GTAC/LCMS/v2020-5': {
         'Change': 1.0,
-        'Change_Raw_Probability_Fast-Loss': 1.0,
+        'Change_Raw_Probability_Fast_Loss': 1.0,
         'Change_Raw_Probability_Gain': 1.0,
         'Change_Raw_Probability_Slow_Loss': 1.0,
         'Land_Cover': 1.0,
@@ -12358,9 +12381,9 @@ var scaleParams = {
     },
     'USFS/GTAC/LCMS/v2020-6': {
         'Change': 1.0,
-        'Change_Raw_Probability_Fast-Loss': 1.0,
+        'Change_Raw_Probability_Fast_Loss': 1.0,
         'Change_Raw_Probability_Gain': 1.0,
-        'Change_Raw_Probability_Slow-Loss': 1.0,
+        'Change_Raw_Probability_Slow_Loss': 1.0,
         'Land_Cover': 1.0,
         'Land_Cover_Raw_Probability_Barren-and-Grass-Forb-Herb-Mix': 1.0,
         'Land_Cover_Raw_Probability_Barren-and-Shrubs-Mix': 1.0,
@@ -12387,9 +12410,9 @@ var scaleParams = {
     },
     'USFS/GTAC/LCMS/v2021-7': {
         'Change': 1.0,
-        'Change_Raw_Probability_Fast-Loss': 1.0,
+        'Change_Raw_Probability_Fast_Loss': 1.0,
         'Change_Raw_Probability_Gain': 1.0,
-        'Change_Raw_Probability_Slow-Loss': 1.0,
+        'Change_Raw_Probability_Slow_Loss': 1.0,
         'Land_Cover': 1.0,
         'Land_Cover_Raw_Probability_Barren-and-Grass-Forb-Herb-Mix': 1.0,
         'Land_Cover_Raw_Probability_Barren-and-Shrubs-Mix': 1.0,
@@ -12416,9 +12439,9 @@ var scaleParams = {
     },
     'USFS/GTAC/LCMS/v2022-8': {
         'Change': 1.0,
-        'Change_Raw_Probability_Fast-Loss': 1.0,
+        'Change_Raw_Probability_Fast_Loss': 1.0,
         'Change_Raw_Probability_Gain': 1.0,
-        'Change_Raw_Probability_Slow-Loss': 1.0,
+        'Change_Raw_Probability_Slow_Loss': 1.0,
         'Land_Cover': 1.0,
         'Land_Cover_Raw_Probability_Barren-and-Grass-Forb-Herb-Mix': 1.0,
         'Land_Cover_Raw_Probability_Barren-and-Shrubs-Mix': 1.0,
@@ -12445,9 +12468,9 @@ var scaleParams = {
     },
     'USFS/GTAC/LCMS/v2023-9': {
         'Change': 1.0,
-        'Change_Raw_Probability_Fast-Loss': 1.0,
+        'Change_Raw_Probability_Fast_Loss': 1.0,
         'Change_Raw_Probability_Gain': 1.0,
-        'Change_Raw_Probability_Slow-Loss': 1.0,
+        'Change_Raw_Probability_Slow_Loss': 1.0,
         'Land_Cover': 1.0,
         'Land_Cover_Raw_Probability_Barren-and-Grass-Forb-Herb-Mix': 1.0,
         'Land_Cover_Raw_Probability_Barren-and-Shrubs-Mix': 1.0,
@@ -13295,6 +13318,9 @@ var scaleParams = {
         'DTM': 1.0
     },
     'projects/neon-prod-earthengine/assets/HSI_REFL/001': {
+        'Acquisition_Date': 1.0,
+        'Aerosol_Optical_Depth': 1.0,
+        'Aspect': 1.0,
         'B001': 1.0,
         'B002': 1.0,
         'B003': 1.0,
@@ -13721,24 +13747,24 @@ var scaleParams = {
         'B424': 1.0,
         'B425': 1.0,
         'B426': 1.0,
-        'B427': 1.0,
-        'B428': 1.0,
-        'B429': 1.0,
-        'B430': 1.0,
-        'B431': 1.0,
-        'B432': 1.0,
-        'B433': 1.0,
-        'B434': 1.0,
-        'B435': 1.0,
-        'B436': 1.0,
-        'B437': 1.0,
-        'B438': 1.0,
-        'B439': 1.0,
-        'B440': 1.0,
-        'B441': 1.0,
-        'B442': 1.0
+        'Cast_Shadow': 1.0,
+        'Dark_Dense_Vegetation_Classification': 1.0,
+        'Haze_Cloud_Water_Map': 1.0,
+        'Illumination_Factor': 1.0,
+        'Path_Length': 1.0,
+        'Sky_View_Factor': 1.0,
+        'Slope': 1.0,
+        'Smooth_Surface_Elevation': 1.0,
+        'Visibility_Index_Map': 1.0,
+        'Water_Vapor_Column': 1.0,
+        'Weather_Quality_Indicator': 1.0,
+        'to-sensor_Azimuth_Angle': 1.0,
+        'to-sensor_Zenith_Angle': 1.0
     },
     'projects/neon-prod-earthengine/assets/HSI_REFL/002': {
+        'Acquisition_Date': 1.0,
+        'Aerosol_Optical_Depth': 1.0,
+        'Aspect': 1.0,
         'B001': 1.0,
         'B002': 1.0,
         'B003': 1.0,
@@ -14165,22 +14191,19 @@ var scaleParams = {
         'B424': 1.0,
         'B425': 1.0,
         'B426': 1.0,
-        'B427': 1.0,
-        'B428': 1.0,
-        'B429': 1.0,
-        'B430': 1.0,
-        'B431': 1.0,
-        'B432': 1.0,
-        'B433': 1.0,
-        'B434': 1.0,
-        'B435': 1.0,
-        'B436': 1.0,
-        'B437': 1.0,
-        'B438': 1.0,
-        'B439': 1.0,
-        'B440': 1.0,
-        'B441': 1.0,
-        'B442': 1.0
+        'Cast_Shadow': 1.0,
+        'Dark_Dense_Vegetation_Classification': 1.0,
+        'Haze_Cloud_Water_Map': 1.0,
+        'Illumination_Factor': 1.0,
+        'Path_Length': 1.0,
+        'Sky_View_Factor': 1.0,
+        'Slope': 1.0,
+        'Smooth_Surface_Elevation': 1.0,
+        'Visibility_Index_Map': 1.0,
+        'Water_Vapor_Column': 1.0,
+        'Weather_Quality_Indicator': 1.0,
+        'to-sensor_Azimuth_Angle': 1.0,
+        'to-sensor_Zenith_Angle': 1.0
     },
     'projects/neon-prod-earthengine/assets/RGB/001': {
         'B': 1.0,
@@ -14218,7 +14241,7 @@ var scaleParams = {
         'b1': 1.0
     },
     'projects/sat-io/open-datasets/us-drought-monitor': {
-        'b1': 1.0
+        'DM': 1.0
     }
 };
 
