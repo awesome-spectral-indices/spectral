@@ -113,6 +113,11 @@ var constants = {
         'description': 'NIR central wavelength (nm)',
         'short_name': 'lambdaN'
     },
+    'lambdaN2': {
+        'default': None,
+        'description': 'NIR2 central wavelength (nm)',
+        'short_name': 'lambdaN2'
+    },
     'lambdaR': {
         'default': None,
         'description': 'Red central wavelength (nm)',
@@ -122,6 +127,11 @@ var constants = {
         'default': None,
         'description': 'SWIR1 central wavelength (nm)',
         'short_name': 'lambdaS1'
+    },
+    'lambdaS2': {
+        'default': None,
+        'description': 'SWIR2 central wavelength (nm)',
+        'short_name': 'lambdaS2'
     },
     'nexp': {
         'default': 2.0,
