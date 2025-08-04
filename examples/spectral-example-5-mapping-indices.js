@@ -38,7 +38,7 @@ function addIndices(img) {
     "R": img.select("B4"),
     "G": img.select("B3"),
     "RE1": img.select("B5"),
-    "RE4": img.select("B8A"),
+    "N2": img.select("B8A"),
   };
   
   // SCALE THE IMAGE
