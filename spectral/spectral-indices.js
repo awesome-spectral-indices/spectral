@@ -1612,6 +1612,17 @@ var spectralIndices = {
             'reference': 'https://doi.org/10.1016/j.rse.2006.07.012',
             'short_name': 'NDTI'
         },
+        'NDTI4RE': {
+            'application_domain': 'vegetation',
+            'bands': ['gamma', 'S1', 'S2', 'N', 'RE3'],
+            'contributor': 'https://github.com/davemlz',
+            'date_of_addition': '2025-09-30',
+            'formula': 'gamma * (S1 - S2)/(S1 + S2) + (1 - gamma) * (N - RE3)/(N + RE3)',
+            'long_name': '4-band Red Edge Normalized Difference Tillage Index',
+            'platforms': ['Sentinel-2'],
+            'reference': 'https://doi.org/10.1016/j.jag.2022.102793',
+            'short_name': 'NDTI4RE'
+        },
         'NDVI': {
             'application_domain': 'vegetation',
             'bands': ['N', 'R'],
@@ -1622,6 +1633,17 @@ var spectralIndices = {
             'platforms': ['Sentinel-2', 'Landsat-OLI', 'Landsat-TM', 'Landsat-ETM+', 'MODIS', 'Planet-Fusion'],
             'reference': 'https://ntrs.nasa.gov/citations/19740022614',
             'short_name': 'NDVI'
+        },
+        'NDVI4RE': {
+            'application_domain': 'vegetation',
+            'bands': ['alpha', 'RE3', 'RE2', 'beta', 'R', 'RE1'],
+            'contributor': 'https://github.com/davemlz',
+            'date_of_addition': '2025-09-30',
+            'formula': '((alpha * RE3 + (1 - alpha) * RE2) - (beta * R + (1 - beta) * RE1))/((alpha * RE3 + (1 - alpha) * RE2) + (beta * R + (1 - beta) * RE1))',
+            'long_name': '4-band Red Edge Normalized Difference Vegetation Index',
+            'platforms': ['Sentinel-2'],
+            'reference': 'https://doi.org/10.1016/j.jag.2022.102793',
+            'short_name': 'NDVI4RE'
         },
         'NDVI705': {
             'application_domain': 'vegetation',
@@ -2107,6 +2129,17 @@ var spectralIndices = {
             'reference': 'https://doi.org/10.2134/agronj1968.00021962006000060016x',
             'short_name': 'RVI'
         },
+        'RVI4RE': {
+            'application_domain': 'vegetation',
+            'bands': ['alpha', 'RE3', 'RE2', 'beta', 'R', 'RE1'],
+            'contributor': 'https://github.com/davemlz',
+            'date_of_addition': '2025-09-30',
+            'formula': '(alpha * RE3 + (1 - alpha) * RE2)/(beta * R + (1 - beta) * RE1)',
+            'long_name': '4-band Red Edge Ratio Vegetation Index',
+            'platforms': ['Sentinel-2'],
+            'reference': 'https://doi.org/10.1016/j.jag.2022.102793',
+            'short_name': 'RVI4RE'
+        },
         'S2REP': {
             'application_domain': 'vegetation',
             'bands': ['RE3', 'R', 'RE1', 'RE2'],
@@ -2173,6 +2206,17 @@ var spectralIndices = {
             'reference': 'https://doi.org/10.1080/01431169008955053',
             'short_name': 'SAVI2'
         },
+        'SAVI4RE': {
+            'application_domain': 'vegetation',
+            'bands': ['alpha', 'RE3', 'RE2', 'beta', 'R', 'RE1'],
+            'contributor': 'https://github.com/davemlz',
+            'date_of_addition': '2025-09-30',
+            'formula': '2.0 * ((alpha * RE3 + (1 - alpha) * RE2) - (beta * R + (1 - beta) * RE1))/((alpha * RE3 + (1 - alpha) * RE2) + (beta * R + (1 - beta) * RE1 + 1))',
+            'long_name': '4-band Red Edge Soil Adjusted Vegetation Index',
+            'platforms': ['Sentinel-2'],
+            'reference': 'https://doi.org/10.1016/j.jag.2022.102793',
+            'short_name': 'SAVI4RE'
+        },
         'SAVIT': {
             'application_domain': 'burn',
             'bands': ['L', 'N', 'R', 'T'],
@@ -2228,6 +2272,17 @@ var spectralIndices = {
             'reference': 'https://www.asprs.org/wp-content/uploads/pers/2000journal/february/2000_feb_183-191.pdf',
             'short_name': 'SLAVI'
         },
+        'SNDTI4RE': {
+            'application_domain': 'vegetation',
+            'bands': ['gamma', 'S1', 'S2', 'N', 'RE3'],
+            'contributor': 'https://github.com/davemlz',
+            'date_of_addition': '2025-09-30',
+            'formula': 'gamma * ((S1 - S2) * 2.0)/(S1 + S2 + 1.0) + (1 - gamma) * ((N - RE3) * 2.0)/(N + RE3 + 1.0)',
+            'long_name': '4-band Red Edge Soil-Adjusted Normalized Difference Tillage Index',
+            'platforms': ['Sentinel-2'],
+            'reference': 'https://doi.org/10.1016/j.jag.2022.102793',
+            'short_name': 'SNDTI4RE'
+        },
         'SR': {
             'application_domain': 'vegetation',
             'bands': ['N', 'R'],
@@ -2282,6 +2337,17 @@ var spectralIndices = {
             'platforms': ['Sentinel-2'],
             'reference': 'https://doi.org/10.1016/S0176-1617(11)81633-0',
             'short_name': 'SR705'
+        },
+        'STI4RE': {
+            'application_domain': 'vegetation',
+            'bands': ['gamma', 'S1', 'S2', 'N', 'RE3'],
+            'contributor': 'https://github.com/davemlz',
+            'date_of_addition': '2025-09-30',
+            'formula': 'gamma * S1/S2 + (1 - gamma) * N/RE3',
+            'long_name': '4-band Red Edge Soil Tillage Index',
+            'platforms': ['Sentinel-2'],
+            'reference': 'https://doi.org/10.1016/j.jag.2022.102793',
+            'short_name': 'STI4RE'
         },
         'SWI': {
             'application_domain': 'snow',
