@@ -1,6 +1,22 @@
 Changelog
 ============
 
+v0.8.0
+------ 
+
+Improvements
+~~~~~~~~~~~~
+
+- The `Awesome Spectral Indices <https://github.com/awesome-spectral-indices/awesome-spectral-indices>`_ list was upgraded to v0.8.0.
+
+v0.7.0
+------ 
+
+Improvements
+~~~~~~~~~~~~
+
+- The `Awesome Spectral Indices <https://github.com/awesome-spectral-indices/awesome-spectral-indices>`_ list was upgraded to v0.7.0.
+
 v0.6.0
 ------ 
 
