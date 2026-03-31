@@ -123,7 +123,7 @@ The available attributes of an index are:
 - :code:`formula`: Expression/formula of the index (e.g. :code:`"(G - N)/(G + N)"`).
 - :code:`bands`: List of required bands/parameters for the index computation (e.g. :code:`["N","G"]`).
 - :code:`reference`: Link to the index reference/paper/doi (e.g. :code:`"https://doi.org/10.1080/01431169608948714"`).
-- :code:`type`: Type/application of the index (e.g. :code:`"water"`).
+- :code:`application_domain`: Type/application of the index (e.g. :code:`"water"`).
 - :code:`date_of_addition`: Date of addition to the list (e.g. :code:`"2021-04-07"`).
 - :code:`contributor`: GitHub user link of the contributor (e.g. :code:`"https://github.com/davemlz"`).
 
