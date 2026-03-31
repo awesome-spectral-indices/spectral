@@ -292,49 +292,49 @@ var spectralIndices = {
             'reference': 'https://doi.org/10.1073/pnas.1606162113',
             'short_name': 'CCI'
         },
-        'CI1A': {
+        'CI1SWIR': {
             'application_domain': 'clouds',
             'bands': ['N', 'S1', 'B', 'G', 'R'],
             'contributor': 'https://github.com/davemlz',
             'date_of_addition': '2026-03-30',
             'formula': '(N + 2.0 * S1) / (B + G + R)',
-            'long_name': 'Cloud Index (Form 1, Option A: with SWIR 1)',
+            'long_name': 'Cloud Index Form 1 with SWIR 1',
             'platforms': ['Sentinel-2', 'Landsat-OLI', 'Landsat-TM', 'Landsat-ETM+', 'MODIS'],
             'reference': 'https://doi.org/10.1016/j.isprsjprs.2018.07.006',
-            'short_name': 'CI1A'
+            'short_name': 'CI1SWIR'
         },
-        'CI1B': {
+        'CI1woSWIR': {
             'application_domain': 'clouds',
             'bands': ['N', 'B', 'G', 'R'],
             'contributor': 'https://github.com/davemlz',
             'date_of_addition': '2026-03-30',
             'formula': '(3.0 * N) / (B + G + R)',
-            'long_name': 'Cloud Index (Form 1, Option B: without SWIR bands)',
+            'long_name': 'Cloud Index Form 1 without SWIR bands',
             'platforms': ['Sentinel-2', 'Landsat-OLI', 'Landsat-TM', 'Landsat-ETM+', 'MODIS', 'Planet-Fusion'],
             'reference': 'https://doi.org/10.1016/j.isprsjprs.2018.07.006',
-            'short_name': 'CI1B'
+            'short_name': 'CI1woSWIR'
         },
-        'CI2A': {
+        'CI2SWIR': {
             'application_domain': 'clouds',
             'bands': ['B', 'G', 'R', 'N', 'S1', 'S2'],
             'contributor': 'https://github.com/davemlz',
             'date_of_addition': '2026-03-30',
             'formula': '(B + G + R + N + S1 + S2) / 6.0',
-            'long_name': 'Cloud Index (Form 2, Option A: with SWIR bands)',
+            'long_name': 'Cloud Index Form 2 with SWIR bands',
             'platforms': ['Sentinel-2', 'Landsat-OLI', 'Landsat-TM', 'Landsat-ETM+', 'MODIS'],
             'reference': 'https://doi.org/10.1016/j.isprsjprs.2018.07.006',
-            'short_name': 'CI2A'
+            'short_name': 'CI2SWIR'
         },
-        'CI2B': {
+        'CI2woSWIR': {
             'application_domain': 'clouds',
             'bands': ['B', 'G', 'R', 'N'],
             'contributor': 'https://github.com/davemlz',
             'date_of_addition': '2026-03-30',
             'formula': '(B + G + R + N) / 4.0',
-            'long_name': 'Cloud Index (Form 2, Option B: without SWIR bands)',
+            'long_name': 'Cloud Index Form 2 without SWIR bands',
             'platforms': ['Sentinel-2', 'Landsat-OLI', 'Landsat-TM', 'Landsat-ETM+', 'MODIS', 'Planet-Fusion'],
             'reference': 'https://doi.org/10.1016/j.isprsjprs.2018.07.006',
-            'short_name': 'CI2B'
+            'short_name': 'CI2woSWIR'
         },
         'CIG': {
             'application_domain': 'vegetation',
@@ -413,27 +413,16 @@ var spectralIndices = {
             'reference': 'https://doi.org/10.1016/j.rse.2005.04.014',
             'short_name': 'CSI'
         },
-        'CSIA': {
+        'CSISWIR': {
             'application_domain': 'clouds',
             'bands': ['N', 'S1'],
             'contributor': 'https://github.com/davemlz',
             'date_of_addition': '2026-03-30',
             'formula': '(N + S1) / 2.0',
-            'long_name': 'Cloud Shadow Index (Option A: with SWIR 1)',
+            'long_name': 'Cloud Shadow Index with SWIR 1',
             'platforms': ['Sentinel-2', 'Landsat-OLI', 'Landsat-TM', 'Landsat-ETM+', 'MODIS'],
             'reference': 'https://doi.org/10.1016/j.isprsjprs.2018.07.006',
-            'short_name': 'CSIA'
-        },
-        'CSIB': {
-            'application_domain': 'clouds',
-            'bands': ['N'],
-            'contributor': 'https://github.com/davemlz',
-            'date_of_addition': '2026-03-30',
-            'formula': 'N',
-            'long_name': 'Cloud Shadow Index (Option B: without SWIR bands)',
-            'platforms': ['Sentinel-2', 'Landsat-OLI', 'Landsat-TM', 'Landsat-ETM+', 'MODIS', 'Planet-Fusion'],
-            'reference': 'https://doi.org/10.1016/j.isprsjprs.2018.07.006',
-            'short_name': 'CSIB'
+            'short_name': 'CSISWIR'
         },
         'CSIT': {
             'application_domain': 'burn',
@@ -445,6 +434,17 @@ var spectralIndices = {
             'platforms': ['Landsat-TM', 'Landsat-ETM+'],
             'reference': 'https://doi.org/10.1080/01431160600954704',
             'short_name': 'CSIT'
+        },
+        'CSIwoSWIR': {
+            'application_domain': 'clouds',
+            'bands': ['N'],
+            'contributor': 'https://github.com/davemlz',
+            'date_of_addition': '2026-03-30',
+            'formula': 'N',
+            'long_name': 'Cloud Shadow Index without SWIR bands',
+            'platforms': ['Sentinel-2', 'Landsat-OLI', 'Landsat-TM', 'Landsat-ETM+', 'MODIS', 'Planet-Fusion'],
+            'reference': 'https://doi.org/10.1016/j.isprsjprs.2018.07.006',
+            'short_name': 'CSIwoSWIR'
         },
         'CVI': {
             'application_domain': 'vegetation',
@@ -2239,6 +2239,17 @@ var spectralIndices = {
             'reference': 'https://doi.org/10.1016/j.jag.2022.102793',
             'short_name': 'RVI4RE'
         },
+        'RWI': {
+            'application_domain': 'water',
+            'bands': ['G', 'n', 'S1'],
+            'contributor': 'https://github.com/edujusti',
+            'date_of_addition': '2026-03-31',
+            'formula': '((G ** (1.0 / 2.71828)) * (1.0 / n) - S1) / ((G ** (1.0 / 2.71828)) * (1.0 / n) + S1)',
+            'long_name': 'Rescaled Water Index',
+            'platforms': ['Sentinel-2', 'Landsat-OLI', 'Landsat-TM', 'Landsat-ETM+', 'MODIS'],
+            'reference': 'https://doi.org/10.1109/JSTARS.2025.3562089',
+            'short_name': 'RWI'
+        },
         'S2REP': {
             'application_domain': 'vegetation',
             'bands': ['RE3', 'R', 'RE1', 'RE2'],
@@ -2326,6 +2337,17 @@ var spectralIndices = {
             'platforms': ['Landsat-TM', 'Landsat-ETM+'],
             'reference': 'https://doi.org/10.1080/01431160600954704',
             'short_name': 'SAVIT'
+        },
+        'SCoWI': {
+            'application_domain': 'water',
+            'bands': ['B', 'G', 'N', 'S1', 'S2'],
+            'contributor': 'https://github.com/cmayet',
+            'date_of_addition': '2026-03-31',
+            'formula': 'B + 2.0 * (G - N) - 0.75 * S1 - 0.5 * S2',
+            'long_name': 'Subtractive Coastal Water Index',
+            'platforms': ['Sentinel-2', 'Landsat-OLI', 'Landsat-TM', 'Landsat-ETM+', 'MODIS'],
+            'reference': 'https://doi.org/10.3390/rs16152795',
+            'short_name': 'SCoWI'
         },
         'SEVI': {
             'application_domain': 'vegetation',
