@@ -1,6 +1,15 @@
 Changelog
 ============
 
+v0.10.0
+------ 
+
+Improvements
+~~~~~~~~~~~~
+
+- The `Awesome Spectral Indices <https://github.com/awesome-spectral-indices/awesome-spectral-indices>`_ list was upgraded to v0.10.0.
+- The :code:`clouds` application domain is now available.
+
 v0.9.0
 ------ 
 
