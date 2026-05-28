@@ -974,6 +974,17 @@ var spectralIndices = {
             'reference': 'https://doi.org/10.1016/j.jag.2024.103668',
             'short_name': 'IRGBVI'
         },
+        'KDI': {
+            'application_domain': 'vegetation',
+            'bands': ['N', 'S1', 'RE3', 'RE1'],
+            'contributor': 'https://github.com/davemlz',
+            'date_of_addition': '2026-05-27',
+            'formula': '((N + S1 - RE3)/(N + S1 + RE3)) * ((RE1 - 2.0 * RE3 + N)/(RE1 + 2.0 * RE3 + N))',
+            'long_name': 'Kochia Detection Index',
+            'platforms': ['Sentinel-2'],
+            'reference': 'https://doi.org/10.1016/j.mlwa.2026.100914',
+            'short_name': 'KDI'
+        },
         'LSWI': {
             'application_domain': 'water',
             'bands': ['N', 'S1'],
@@ -2854,6 +2865,28 @@ var spectralIndices = {
             'platforms': ['Sentinel-2', 'Landsat-OLI', 'Landsat-TM', 'Landsat-ETM+', 'MODIS', 'Planet-Fusion'],
             'reference': 'https://doi.org/10.1016/j.ecolind.2015.03.037',
             'short_name': 'VrNIRBI'
+        },
+        'WCI1': {
+            'application_domain': 'vegetation',
+            'bands': ['B', 'R', 'RE1', 'epsilon', 'G', 'N'],
+            'contributor': 'https://github.com/davemlz',
+            'date_of_addition': '2026-05-27',
+            'formula': '-1.0 * ((B - R + RE1)/(B + R + RE1 + epsilon)) * ((G + R)/(B + N + epsilon))',
+            'long_name': 'Wheat Canopy Index (Growth Stage 1)',
+            'platforms': ['Sentinel-2'],
+            'reference': 'https://doi.org/10.1016/j.mlwa.2026.100914',
+            'short_name': 'WCI1'
+        },
+        'WCI2': {
+            'application_domain': 'vegetation',
+            'bands': ['B', 'G', 'RE1', 'R', 'epsilon', 'N'],
+            'contributor': 'https://github.com/davemlz',
+            'date_of_addition': '2026-05-27',
+            'formula': '-1.0 * ((B + G + RE1)/(R + epsilon)) * ((B + R + RE1)/(N + epsilon))',
+            'long_name': 'Wheat Canopy Index (Growth Stage 2)',
+            'platforms': ['Sentinel-2'],
+            'reference': 'https://doi.org/10.1016/j.mlwa.2026.100914',
+            'short_name': 'WCI2'
         },
         'WDRVI': {
             'application_domain': 'vegetation',
