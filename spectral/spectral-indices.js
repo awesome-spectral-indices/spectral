@@ -770,7 +770,7 @@ var spectralIndices = {
             'bands': ['N', 'G', 'B', 'R'],
             'contributor': 'https://github.com/davemlz',
             'date_of_addition': '2021-04-07',
-            'formula': '(N - (G - (B - R))) / (N - (G + (B - R)))',
+            'formula': '(N - (G - (B - R))) / (N + (G - (B - R)))',
             'long_name': 'Green Atmospherically Resistant Vegetation Index',
             'platforms': ['Sentinel-2', 'Landsat-OLI', 'Landsat-TM', 'Landsat-ETM+', 'MODIS', 'Planet-Fusion'],
             'reference': 'https://doi.org/10.1016/S0034-4257(96)00072-7',
