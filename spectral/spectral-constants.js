@@ -83,6 +83,11 @@ var constants = {
         'description': 'Adjustment constant used for EBI, WC1 and WC2. For WCx indices use epsilon = 1e-10',
         'short_name': 'epsilon'
     },
+    'eta': {
+        'default': 0.5,
+        'description': 'Mix of green and red reflectances in GRARI',
+        'short_name': 'eta'
+    },
     'fdelta': {
         'default': 0.581,
         'description': 'Adjustment factor used for SEVI',
@@ -132,6 +137,11 @@ var constants = {
         'default': None,
         'description': 'SWIR2 central wavelength (nm)',
         'short_name': 'lambdaS2'
+    },
+    'lmb': {
+        'default': 1,
+        'description': 'Parameter that controls the atmospheric correction in GRARI',
+        'short_name': 'lmb'
     },
     'n': {
         'default': 5,
