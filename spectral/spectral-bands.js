@@ -40,7 +40,7 @@ Attributes
 var bands = {
     'A': {
         'common_name': 'coastal',
-        'long_name': 'Aersols',
+        'long_name': 'Aerosols',
         'max_wavelength': 455,
         'min_wavelength': 400,
         'platforms': {
@@ -55,7 +55,7 @@ var bands = {
                 'band': 'B1',
                 'bandwidth': 20.0,
                 'name': 'Coastal Aerosol',
-                'platform': 'Landsat 8',
+                'platform': 'Landsat 9',
                 'wavelength': 440.0
             },
             'planetscope': {
