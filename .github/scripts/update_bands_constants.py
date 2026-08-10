@@ -75,8 +75,8 @@ exports.constants = constants;
 """
 
 # Saving the parameters
-codeBands = "var bands = " + str(bands)
-codeConstants = "var constants = " + str(constants)
+codeBands = "var bands = " + json.dumps(bands)
+codeConstants = "var constants = " + json.dumps(constants)
 
 # Beautifying JS
 resBands = jsbeautifier.beautify(previousCode + "\n" + codeBands + ";\n" + nextCodeBands)
