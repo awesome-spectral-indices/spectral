@@ -54,7 +54,7 @@ var constants = {
         'short_name': 'L'
     },
     'PAR': {
-        'default': None,
+        'default': null,
         'description': 'Photosynthetically Active Radiation',
         'short_name': 'PAR'
     },
@@ -109,32 +109,32 @@ var constants = {
         'short_name': 'k'
     },
     'lambdaG': {
-        'default': None,
+        'default': null,
         'description': 'Green central wavelength (nm)',
         'short_name': 'lambdaG'
     },
     'lambdaN': {
-        'default': None,
+        'default': null,
         'description': 'NIR central wavelength (nm)',
         'short_name': 'lambdaN'
     },
     'lambdaN2': {
-        'default': None,
+        'default': null,
         'description': 'NIR2 central wavelength (nm)',
         'short_name': 'lambdaN2'
     },
     'lambdaR': {
-        'default': None,
+        'default': null,
         'description': 'Red central wavelength (nm)',
         'short_name': 'lambdaR'
     },
     'lambdaS1': {
-        'default': None,
+        'default': null,
         'description': 'SWIR1 central wavelength (nm)',
         'short_name': 'lambdaS1'
     },
     'lambdaS2': {
-        'default': None,
+        'default': null,
         'description': 'SWIR2 central wavelength (nm)',
         'short_name': 'lambdaS2'
     },
